@@ -1,0 +1,50 @@
+﻿@using WTFPrice_HTFTeam.Models
+@model WTFPrice_HTFTeam.Models.Order
+
+<div class="row no_margin">
+    <div class="col-lg-5 col-md-5 no_padding cart_form">
+        @using (Html.BeginForm("CheckOut", "Order", FormMethod.Post, new { @class = "contact_form" }))
+        {
+            @Html.AntiForgeryToken()
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                    @Html.EditorFor(model => model.ContactName, new { htmlAttributes = new { @class = "contact_txt", placeholder = "Họ và tên" } })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "contact_txt", placeholder = "E-mail" } })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                    @Html.EditorFor(model => model.ContactAddress, new { htmlAttributes = new { @class = "contact_txt", placeholder = "Address" } })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                    @Html.EditorFor(model => model.ContactPhone, new { htmlAttributes = new { @class = "contact_txt", placeholder = "Phone" } })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12" style="margin-bottom:10px;">
+                    @Html.TextAreaFor(model => model.Note, new { @class = "contact_txta", placeholder = "Message...", rows = 5 })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12" style="margin-bottom:-14px;">
+                    <input type="submit" class="contact_button_send" value="Gửi đơn đặt hàng" />
+                </div>
+            </div>
+        }
+    </div>
+    <div class="col-lg-7 col-md-7 cart_info">
+        <span>Cách thức mua hàng trực tuyến:</span><br>
+        1. Khách hàng chọn sản phẩm, điền đầy đủ thông tin đặt hàng rồi gởi cho <strong>WTFPrice</strong>.<br>
+        2. <strong>WTFPrice</strong> sẽ liên hệ với quý khách trong thời gian sớm nhất để xác nhận thông tin đặt hàng.<br>
+        3. Nhân viên của <strong>WTFPrice</strong> sẽ giao hàng đến tận nơi và nhận thanh toán khi giao hàng.<br>
+        <div class="note_bg">
+            <strong class="note">Lưu ý:</strong> <strong>WTFPrice</strong> chỉ chấp nhận những đơn đặt hàng cung cấp thông tin chính xác về địa chỉ, số điện thoại, email. <strong>WTFPrice</strong> cam kết tất cả hàng hóa gởi đến quý khách đều là hàng mới 100%.
+        </div>
+    </div>
+</div>

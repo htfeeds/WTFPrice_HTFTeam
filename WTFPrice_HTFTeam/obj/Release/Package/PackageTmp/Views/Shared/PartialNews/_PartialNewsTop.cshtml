@@ -1,0 +1,75 @@
+﻿@model WTFPrice_HTFTeam.ViewModel.Repository
+@{
+    //ViewData["tech"] = "tech";
+    //ViewData["Evaluate"] = "Evaluate";
+    //ViewData["Discount"] = "Discount";
+
+}
+<div class="row news-top" style="margin: 0 0">
+    <div class="col-md-8 news-menu" style="margin: 0; padding: 0;">
+        <ul class="list-inline">
+            <li>
+                <a href="/News/Index">Tin mới</a>
+               @*@Html.ActionLink("Tin mới","Index","News",null,null)*@
+            </li>
+            <li>
+                <a href="@Url.Action("Index", "News", new {id = 12})">Công nghệ</a>
+                <div class="inner-hidden">
+                    @Html.Partial("PartialNews/_PartialNewsDropDownTop", @Model.SortByCategoryTech)<p>
+                        <a href="@Url.Action("Index", "News", new {id = 12})">Xem thêm &rarr;</a>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <a href="@Url.Action("Index", "News", new {id = 17})">Khuyến mãi</a>
+                <div class="inner-hidden">
+                    @Html.Partial("PartialNews/_PartialNewsDropDownTop", @Model.SortByCategoryDiscount)<p>
+                        <a href="@Url.Action("Index", "News", new {id = 17})">Xem thêm &rarr;</a>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <a href="@Url.Action("Index", "News", new {id = 13})">Đánh giá</a>
+                <div class="inner-hidden">
+                    @Html.Partial("PartialNews/_PartialNewsDropDownTop", @Model.SortByCategoryEvaluate)<p>
+                        <a href="@Url.Action("Index", "News", new {id = 13})">Xem thêm &rarr;</a>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <a href="#">Gallery</a>
+            </li>
+            <li>
+                <a href="#">Video</a>
+            </li>
+            <li>
+                <a href="#">Tất cả</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-4 news-search-form">
+        @*<form class="form-wrapper cf" action="@Url.Action("Search", "News")" method="POST">
+            <input name="searchInput" type="text" placeholder="Tìm kiếm tin tức..." required>
+
+        </form>*@
+
+        @using (Ajax.BeginForm("Search", "News", null,
+            new AjaxOptions
+            {
+                InsertionMode = InsertionMode.Replace,
+                HttpMethod = "POST",
+                OnFailure = "searchFailed",
+                LoadingElementId = "ajax-loader",
+                UpdateTargetId = "SearchResultId"
+            },
+            new { @class = "form-wrapper cf" }))
+        {
+            <i class="fa fa-refresh fa-spin" id="ajax-loader" style="display: none; color: rgb(139, 0, 0); font-size: 21px;right: 140px;position: absolute"></i>
+            <input type="text" name="searchInput" data-autocomplete-source="@Url.Action("QuickSearch", "News")" placeholder="Tìm kiếm tin tức..." required/>
+            <button type="submit">Searh</button>
+            @*<img id="ajax-loader" src="@Url.Content("~/images/04.jpg")" style="display: none"/>*@
+    
+        }
+    </div>
+</div>
+

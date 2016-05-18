@@ -1,0 +1,50 @@
+﻿@model WTFPrice_HTFTeam.Models.Product
+@{
+    List<WTFPrice_HTFTeam.Models.ProductDetail> lsdetails = Model.ProductDetails.OrderBy(x => x.DisplayOrder).Take(4).ToList();
+}
+
+<div class="product_item col-lg-2 col-md-3 col-sm-3 col-xs-12">
+    @if (string.IsNullOrEmpty(Model.ImageUrl) == false)
+    {
+        <a href="@Url.Action("Details", "Products", new { id = Model.Id })" class="product_img"><img src="@Url.Content(Model.ImageUrl)"></a>
+    }
+    else
+    {
+        <a href="@Url.Action("Details", "Products", new { id = Model.Id })" class="product_img"><img src="~/Content/images/Products/wtfprice.png"></a>
+    }
+    @Html.ActionLink(Model.Name, "Details", "Products", new { id = Model.Id }, new { @class = "product_name" })
+    <div class="product_id">@Html.DisplayNameFor(model => model.Id): @Model.Id</div>
+    <div class="product_price">@Html.DisplayFor(model => model.Price)<span> VNĐ</span></div>
+    <div class="product_hover_bg">
+        @if (lsdetails.Count > 0)
+        {
+            <a href="@Url.Action("Details", "Products", new { id = Model.Id })" class="product_info">
+                <ul>
+                    @foreach (var detail in lsdetails)
+                    {
+                        <li><span>@detail.PropertyName</span>: @detail.PropertyValue</li>
+                    }
+                </ul>
+            </a>
+            <div class="product_hover_btn_bg">
+                @Ajax.ActionLink("Chọn mua", "AddToCart", "Products", new { productId = Model.Id }, new AjaxOptions() { HttpMethod = "GET", InsertionMode = InsertionMode.Replace, UpdateTargetId = "htf-giohang", OnComplete = "addCompleted" }, new { @class = "product_add_btn", data = Model.Name })
+                @Html.ActionLink("So sánh", "Compare", "Compare", new { productId = Model.Id }, new { @class = "product_compare_btn" })
+            </div>
+        }
+        else
+        {
+            <a href="@Url.Action("Details", "Products", new { id = Model.Id })" class="product_info">@Model.Name</a>
+            <div class="product_hover_btn_bg">
+                @Ajax.ActionLink("Chọn mua", "AddToCart", "Products", new { productId = Model.Id }, new AjaxOptions() { HttpMethod = "GET", InsertionMode = InsertionMode.Replace, UpdateTargetId = "htf-giohang", OnComplete = "addCompleted" }, new { @class = "product_add_btn center", data = Model.Name })
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    function addCompleted() {
+        $("#cart-product-name").replaceWith($(this).attr("data"));
+        $('#CartModal').modal('show');
+        setTimeout(function () { $('#CartModal').modal('hide'); }, 2000);
+    }
+</script>

@@ -1,0 +1,44 @@
+﻿@using WTFPrice_HTFTeam.Models
+@model WTFPrice_HTFTeam.Models.Product
+@{
+    var db = new WTFPriceEntities();
+    int id = int.Parse(ViewContext.RouteData.Values["id"].ToString());
+
+    var lsCate = db.Product_Category_Mappings.Where(x => x.ProductId == id).Select(x => x.Category).ToList();
+    var cate = lsCate.FirstOrDefault(x => x.ParentCategoryId == 0);
+
+    if (cate == null)
+    {
+        cate = lsCate.FirstOrDefault();
+    }
+
+    var subCate = lsCate.FirstOrDefault(x => x.ParentCategoryId == cate.Id);
+    Category sub2 = null;
+    if (subCate != null)
+    {
+        sub2 = lsCate.FirstOrDefault(x => x.ParentCategoryId == subCate.Id);
+    }
+}
+<div class="wrapper bgded">
+    <div class="overlay dkgrey">
+        <div id="breadcrumb" class="clear">
+            <ul>
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                @if (cate != null)
+                {
+                    <li>@Html.ActionLink(cate.Name, "List", "Products", new { category = cate.Id }, null)</li>
+                }
+
+                @if (subCate != null)
+                {
+                    <li>@Html.ActionLink(subCate.Name, "List", "Products", new { category = subCate.Id }, null)</li>
+                }
+                @if (sub2 != null)
+                {
+                    <li>@Html.ActionLink(sub2.Name, "List", "Products", new { category = sub2.Id }, null)</li>
+                }
+                <li>@Model.Name</li>
+            </ul>
+        </div>
+    </div>
+</div>

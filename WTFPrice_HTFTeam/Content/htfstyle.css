@@ -1,0 +1,1105 @@
+﻿.ui-helper-hidden-accessible {
+    display: none;
+}
+
+.ui-widget-content {
+    color: #FFFFFF;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.ui-menu-item {
+    padding: 5px 10px;
+    text-wrap: none;
+    text-overflow: ellipsis;
+    border-bottom: solid 1px rgba(0,0,0,.6);
+}
+
+.ui-menu-item:hover, .ui-state-focus {
+    background-color: #56AED4!important;
+}
+
+.ui-autocomplete {
+    cursor: pointer;
+    width: 292px;
+    list-style: none;
+    z-index: 9999;
+    display: block;
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#admin {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+    #admin a {
+        color: #56AED4;
+    }
+
+#fb-root {
+    margin: 10px 0;
+}
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: transparent;
+    border: 0px none;
+    margin: 0px auto;
+    padding: 0px;
+    outline: 0px none;
+}
+
+    a:focus, a:hover {
+        color: #23527c;
+    }
+
+.no_padding {
+    padding: 0;
+}
+
+.no_margin {
+    margin: 0;
+}
+
+.no_border {
+    border: none;
+}
+
+.home_title {
+    position: relative;
+    margin-top: 28px;
+}
+
+.new_product_title {
+    position: absolute;
+    z-index: 2;
+    position: relative;
+    float: left;
+    font-size: 20px;
+    font-family: 'Myriad Set Pro';
+    color: #333333;
+    text-Shadow: 0 0 1px rgba(88,80,80,0.2);
+    padding-bottom: 5px;
+    border-bottom: 3px solid #56AED4;
+    text-transform: uppercase;
+}
+
+.new_product_title_line {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 3px;
+    background: #eee;
+    bottom: 0;
+}
+
+.home_product_bg, .page_product_bg {
+    background: #fff;
+    margin-top: 26px;
+    border-top: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+}
+
+.product_item {
+    float: left;
+    height: 268px;
+    background: #fff;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    text-align: center;
+    overflow: hidden;
+}
+
+.product_img {
+    float: left;
+    width: 100%;
+    height: 142px;
+    overflow: hidden;
+    margin: 12px 0 0 0;
+}
+
+    .product_img img {
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+.product_name {
+    float: left;
+    width: 100%;
+    margin-left: 1%;
+    margin-top: 16px;
+    font-size: 12px;
+    color: #333;
+    text-transform: none;
+    font-weight: 600;
+    font-family: 'Myriad Set Pro';
+    text-Shadow: 0 0 1px rgba(51,51,51,0.1);
+    height: 52px;
+    word-wrap: break-word;
+    line-height: 17px;
+    overflow: hidden;
+}
+
+    .product_name:hover {
+        color: #333;
+        text-Shadow: 0 0 1px rgba(51,51,51,0.1);
+    }
+
+.product_id {
+    float: left;
+    width: 100%;
+    color: #878787;
+    font-size: 12px;
+    font-family: 'Myriad Set Pro';
+    line-height: 18px;
+}
+
+.product_price {
+    float: left;
+    width: 100%;
+    color: #56AED4;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+    .product_price span {
+        color: #555;
+    }
+
+.product_hover_bg {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 168px;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.product_item:hover .product_hover_bg {
+    left: 0;
+    opacity: 1;
+}
+
+.product_hover_bg .product_name {
+    margin-top: 10px;
+    height: 54px;
+}
+
+    .product_hover_bg .product_name:hover {
+        color: #333;
+        text-shadow: none;
+    }
+
+.product_hover_bg .product_id:hover {
+    color: #878787;
+    text-shadow: none;
+}
+
+.product_hover_bg .product_price:hover {
+    color: #56AED4;
+    text-shadow: none;
+}
+
+.product_info {
+    float: left;
+    margin: 8px 12px;
+    font-size: 12px;
+    height: 118px;
+    overflow: hidden;
+    color: #eee;
+    text-align: left;
+    font-family: 'Myriad Set Pro';
+    line-height: 17px;
+}
+
+    .product_info:hover {
+        color: #eee;
+        text-shadow: none;
+    }
+
+    .product_info ul {
+        background: transparent;
+        border: 0px none;
+        margin: 0px auto;
+        padding: 0px;
+        outline: 0px none;
+    }
+
+        .product_info ul li {
+            float: left;
+            width: 100%;
+        }
+
+            .product_info ul li span {
+                color: #fff;
+                text-Shadow: 0 0 1px rgba(51,51,51,0.2);
+            }
+
+.product_hover_btn_bg {
+    position: absolute;
+    height: 25px;
+    bottom: 10px;
+    width: 100%;
+    padding: 0 12px;
+}
+
+    .product_hover_btn_bg a {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 3px;
+        height: 25px;
+        color: #fff;
+        width: 46%;
+        text-Shadow: 0 0 1px rgba(255,255,255,0.6);
+        -webkit-transition: all 0.25s ease-in-out;
+        -moz-transition: all 0.25s ease-in-out;
+        -o-transition: all 0.25s ease-in-out;
+        transition: all 0.25s ease-in-out;
+    }
+
+.product_add_btn {
+    float: left;
+    background: #56AED4;
+}
+
+    .product_add_btn.center {
+        width: 100%;
+    }
+
+    .product_add_btn:hover {
+        cursor: pointer;
+        color: #fff;
+        background: #0099FF;
+        text-Shadow: 0 0 1px rgba(255,255,255,0.6), 0 0 5px rgba(255,255,255,0.6);
+    }
+
+.product_compare_btn {
+    float: right;
+    background: #DF9C00;
+}
+
+    .product_compare_btn:hover {
+        color: #fff;
+        background: #F3B014;
+        text-Shadow: 0 0 1px rgba(255,255,255,0.6), 0 0 5px rgba(255,255,255,0.6);
+    }
+
+.next_page {
+    width: 100%;
+    height: 38px;
+    margin-top: 16px;
+    background: #111;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+    .next_page div {
+        position: relative;
+        height: 20px;
+        width: 226px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .next_page span {
+        float: left;
+        width: 20px;
+        height: 20px;
+        margin-right: 3px;
+        margin-top: -1px;
+        background: url(../Content/images/product_load.png) no-repeat;
+    }
+
+    .next_page:hover {
+        color: #fff;
+        text-decoration: none;
+        background: #56AED4;
+    }
+
+        .next_page:hover span {
+            -webkit-animation-name: spin;
+            -webkit-animation-duration: 2000ms;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-name: spin;
+            -moz-animation-duration: 2000ms;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-timing-function: linear;
+            -ms-animation-name: spin;
+            -ms-animation-duration: 2000ms;
+            -ms-animation-iteration-count: infinite;
+            -ms-animation-timing-function: linear;
+            animation-name: spin;
+            animation-duration: 2000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+@-ms-keyframes spin {
+    from {
+        -ms-transform: rotate(0deg);
+    }
+
+    to {
+        -ms-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.footer_top_item {
+    float: left;
+    height: 56px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 16px;
+    font-family: 'Myriad Set Pro';
+    text-Shadow: 0 0 1px rgba(255,255,255,0.2);
+}
+
+    .footer_top_item:hover {
+        text-Shadow: 0 0 1px rgba(255,255,255,0.2), 0 0 6px rgba(255,255,255,0.6);
+    }
+
+    .footer_top_item i {
+        display: inline-block;
+        margin-top: -6px;
+        margin-right: 10px;
+        -webkit-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+        transition: all 0.35s ease-in-out;
+    }
+
+#custom-search-input {
+    padding: 0;
+    border: solid 1px #E4E4E4;
+    background-color: #fff;
+    margin-top: 22px;
+}
+
+    #custom-search-input input {
+        font-size: 12px;
+        height: 30px;
+        padding: 3px 16px;
+        border: 0;
+        box-shadow: none;
+    }
+
+    #custom-search-input button {
+        margin: 2px 0 0 0;
+        background: none;
+        box-shadow: none;
+        border: 0;
+        color: #666666;
+        padding: 0 8px 0 10px;
+        border-left: solid 1px #ccc;
+    }
+
+        #custom-search-input button:hover {
+            border: 0;
+            box-shadow: none;
+            border-left: solid 1px #ccc;
+        }
+
+    #custom-search-input .fa-search {
+        font-size: 18px;
+    }
+
+/* ----------------------------------------------Filter----------------------------------------- */
+
+#filter {
+    list-style: none;
+    padding: 20px 0 0 0;
+    margin: 0;
+    font-size: 13px;
+}
+
+    #filter a {
+        color: #333;
+        text-Shadow: 0 0 1px rgba(182,16,20,0.1);
+    }
+
+    #filter li {
+        position: relative;
+        padding: 0 10px 3px 10px;
+        margin: 0 18px;
+    }
+
+        #filter li:first-child {
+            margin: 0;
+            padding-left: 0;
+        }
+
+        #filter li a {
+            white-space: nowrap;
+            display: block;
+        }
+
+        #filter li .dropfilter {
+            visibility: hidden;
+            opacity: 0;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 25px;
+            left: 0px;
+            right: 0;
+            z-index: 9999;
+            width: 175px;
+            overflow: hidden;
+            list-style: none;
+            background: #fff;
+            border: 1px solid #d5d5d5;
+        }
+
+        #filter li:hover > ul {
+            visibility: visible;
+            opacity: 1;
+        }
+
+    #filter .arrdown {
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #888;
+        display: inline-block;
+        width: 0;
+        height: 0;
+        position: absolute;
+        right: -12px;
+        top: 7px;
+        vertical-align: top;
+    }
+
+    #filter .droplast {
+        right: -20px !important;
+        left: -20px !important;
+    }
+
+    #filter .dropfilter li {
+        height: auto;
+        float: none;
+        margin: 0;
+        padding: 0;
+        display: list-item;
+    }
+
+        #filter .dropfilter li a.checked {
+            font-weight: 600;
+            margin-left: 0;
+        }
+
+            #filter .dropfilter li a.checked i {
+                width: 10px;
+                height: 9px;
+                float: left;
+                margin: 5px 6px 6px -12px;
+            }
+
+        #filter .dropfilter li a {
+            white-space: normal;
+            background: #fff;
+            padding: 5px 8px 5px 20px;
+        }
+
+            #filter .dropfilter li a:hover {
+                background: #f5f5f5;
+            }
+
+    #filter .fl_right a {
+        color: #56AED4;
+    }
+
+    #filter .fl_right .dropfilter {
+        border: 2px solid #56AED4;
+    }
+
+    #filter .fl_right .arrdown {
+        border-top: 5px solid #56AED4;
+    }
+
+/*==========================================Product Details Page======================================================*/
+.product_gallery_bg {
+    float: left;
+    height: 350px;
+    margin-top: 20px;
+}
+
+.product_detail_img {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+    .product_detail_img img {
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+.product_detail_gallery {
+    position: relative;
+    text-align: center;
+    margin-top: 18px;
+}
+
+    .product_detail_gallery a {
+        display: inline-block;
+        width: 46px;
+        height: 36px;
+        border: 1px solid #eee;
+        margin: 0 1px;
+    }
+
+        .product_detail_gallery a.selected {
+            border: 1px solid #ccc;
+        }
+
+        .product_detail_gallery a img {
+            height: auto;
+            width: auto;
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+.product_detail_info_bg {
+    float: right;
+    margin-top: 22px;
+}
+
+.product_detail_title {
+    font-family: 'Myriad Set Pro';
+    color: #56AED4;
+    text-Shadow: 0 0 1px rgba(182,16,20,0.3);
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.product_detail_ID {
+    font: 13px "Myriad Set Pro", Helvetica, sans-serif;
+}
+
+.product_detail_price {
+    font-size: 18px;
+    font-family: 'Myriad Set Pro';
+    margin-top: 15px;
+    text-Shadow: 0 0 1px #bbb;
+}
+
+    .product_detail_price span {
+        color: #56AED4;
+        text-Shadow: 0 0 1px rgba(182,16,20,0.3);
+    }
+
+.product_add_detail_btn {
+    float: left;
+    width: 120px;
+    height: 32px;
+    background: url(../Content/images/product_add_detail_btn.png) no-repeat 0 0;
+    margin-top: 22px;
+}
+
+.product_add_btn.product_add_detail_btn:hover {
+    background: url(../Content/images/product_add_detail_btn.png) no-repeat 0 -32px;
+}
+
+.product_add_btn.product_add_detail_btn:active {
+    background: url(../Content/images/product_add_detail_btn.png) no-repeat 0 -64px;
+}
+
+.product_detail_info_title {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 15px;
+    text-Shadow: 0 0 1px #ddd;
+    font-family: 'Myriad Set Pro';
+}
+
+.product_detail_info {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.product_detail_warranty {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 12px;
+    text-Shadow: 0 0 1px #ddd;
+    font-family: 'Myriad Set Pro';
+}
+
+.promorion_bg {
+    float: left;
+    width: 95%;
+    border: 1px dashed #B61013;
+    margin-top: 15px;
+    padding: 11px 2%;
+    color: #B61013;
+    font-size: 14px;
+    text-Shadow: 0 0 1px rgba(182,16,20,0.1);
+    font-family: 'Myriad Set Pro';
+}
+
+.product_detail_bg {
+    float: left;
+    width: 100%;
+    margin: 26px 0 36px 0;
+}
+
+.product_detail_bar {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 48px;
+    z-index: 10;
+    top: 0;
+    background: #111;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.product_bar_item {
+    float: left;
+    height: 48px;
+    font-family: "myriad_proregular" !important;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    text-align: left;
+    padding: 15px 25px 0 25px;
+    border-right: 1px solid rgba(255,255,255,0.3);
+    text-Shadow: 0 0 1px rgba(255,255,255,1);
+}
+
+    .product_bar_item.selected, .product_bar_item:hover {
+        background: #56AED4;
+        color: #fff;
+        text-Shadow: 0 0 1px rgba(255,255,255,1), 0 0 5px rgba(255,255,255,0.5);
+    }
+
+    .product_bar_item:last-child {
+        border-right: none;
+    }
+
+.product_detail_content {
+    float: right;
+}
+
+.product_content_item {
+    float: left;
+    width: 100%;
+    margin: 0 0 28px 0;
+}
+
+.product_content_title {
+    width: 100%;
+    border-bottom: 3px solid #DDD;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: "myriad_proregular" !important;
+    color: #CB1216;
+    padding-bottom: 5px;
+    text-Shadow: 0 0 1px rgba(182,16,20,0.3);
+}
+
+.product_content_bg {
+    margin-top: 15px;
+}
+
+.product_details_info_bg .chitiet {
+    font-family: "myriad_prosemibold" !important;
+    background: #fff;
+    margin-top: 5px;
+    color: #666;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+    .product_details_info_bg .chitiet tr td {
+        vertical-align: top;
+        border-bottom: 1px solid #eee;
+        padding: 9px 18px 6px 18px;
+        font-size: 14px;
+    }
+
+.chitiet tr:first-child td {
+    border-top-style: none;
+}
+
+.chitiet tr:last-child td {
+    border-bottom-style: none;
+}
+
+.chitiet tr td:first-child {
+    text-align: right;
+    width: 85px;
+    padding-right: 5px;
+    border-left-style: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.chitiet tr td:last-child {
+    border-right-style: none;
+    padding-right: 8px;
+}
+
+.chitiet tr:nth-child(odd) {
+    background: #FCFCFC;
+}
+
+.product_details_info_bg .chitiet tr:hover {
+    cursor: pointer;
+    background: #F8FFFF;
+}
+
+.page_details.product_details_info_bg .chitiet tr td:first-child {
+    width: auto !important;
+    white-space: nowrap;
+}
+
+.product_same_item {
+    margin-top: 10px;
+}
+
+    .product_same_item li:first-child {
+        margin-left: 0;
+        clear: left;
+    }
+
+.product_same_item_bg {
+    text-align: center;
+    overflow: hidden;
+}
+
+.product_same_item_img {
+    float: left;
+    width: 194px;
+    height: 126px;
+    margin: 10px 36px 0 36px;
+    overflow: hidden;
+}
+
+    .product_same_item_img img {
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+.product_same_item_name {
+    float: left;
+    width: 194px;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 8px 36px 0 36px;
+    color: #444;
+    overflow: hidden;
+    display: block;
+}
+
+    .product_same_item_name:hover {
+        color: #DD1318;
+        text-Shadow: 0 0 1px rgba(221,19,24,0.2);
+        text-decoration: none;
+    }
+
+.product_same_price {
+    float: left;
+    width: 100%;
+    margin: 6px auto;
+    text-align: center;
+    color: #B61013;
+    font-size: 14px;
+    font-family: 'Myriad Set Pro';
+    text-Shadow: 0 0 1px rgba(182,16,20,0.2);
+}
+
+.product_same_item_compare {
+    float: left;
+    width: 120px;
+    height: 28px;
+    margin: 0 72px 12px 72px;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    text-Shadow: 0 0 1px rgba(255,255,255,0.6);
+    background: #B61013;
+    font-size: 12px;
+}
+
+    .product_same_item_compare:hover {
+        background: #CA2427;
+        color: #fff;
+        text-Shadow: 0 0 1px rgba(255,255,255,1);
+    }
+
+    .product_same_item_compare:active {
+        background: #930D10;
+        color: #fff;
+        text-Shadow: 0 0 1px rgba(255,255,255,1);
+    }
+
+.compare_select_form {
+    width: 94.8% !important;
+    margin-top: 12px;
+    padding: 0;
+    border: 1px dotted #999;
+    background: url(../Content/images/compare_search_btn.png) no-repeat right 0;
+}
+
+.compare_search_tf {
+    width: 90%;
+    padding-left: 8px;
+    height: 26px;
+    margin-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-family: 'Myriad Set Pro';
+    color: #555555;
+    font-weight: normal !important;
+}
+
+.modal-open {
+    padding-right: 0 !important;
+}
+
+#CartModal {
+    padding-right: 0 !important;
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+.modal-body-text {
+    color: #444;
+}
+
+.modal-footer {
+    padding: 10px;
+}
+
+    .modal-footer .btn {
+        padding: 3px 6px;
+    }
+
+/*==========================================Order Page======================================================*/
+.page_title {
+    position: relative;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    color: #B61013;
+    text-Shadow: 0 0 1px rgba(182,16,20,0.3);
+}
+
+.product_title {
+    text-Shadow: 0 0 1px rgba(88,80,80,0.5);
+}
+
+.yourcart_table {
+    background: #fff;
+    margin-top: 10px;
+    color: #555;
+    border-spacing: 1px;
+    width: 100%;
+}
+
+.yourcart_table_header th, .yourcart_table_footer td {
+    font-weight: bold;
+    background: #fff;
+    font-size: 14px;
+    line-height: 0;
+    padding: 28px 15px !important;
+    text-align: center;
+    color: #56AED4 !important;
+    font-family: "myriad_prosemibold" !important;
+    text-transform: uppercase;
+    vertical-align: central;
+    border: 1px solid #eee;
+}
+
+.yourcart_table td {
+    background: #fff;
+    vertical-align: middle;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+.yourcart_table tr td:first-child, .yourcart_table tr th:first-child {
+    border-left: none;
+}
+
+.yourcart_table tr td:last-child, .yourcart_table tr th:last-child {
+    border-right: none;
+}
+
+.td_product_img img {
+    width: 60px;
+    height: auto;
+}
+
+.product_name2 {
+    font-weight: bold;
+    font-family: "myriad_prosemibold" !important;
+    overflow: hidden;
+    padding-bottom: 10px;
+    text-align: left !important;
+    color: #555555;
+}
+
+    .product_name2:hover {
+        color: #DD1318;
+    }
+
+
+.td_price, .td_sum {
+    font-size: 13px;
+    width: 160px;
+    font-weight: 500;
+    color: #56AED4;
+}
+
+.td_num {
+    text-align: center;
+    width: 110px;
+}
+
+    .td_num input {
+        width: 55px;
+        text-align: center;
+        border: 1px dotted #56AED4;
+        color: #56AED4;
+        font-size: 13px;
+        padding: 2px;
+        margin: 0 auto;
+    }
+
+.cart_item_remove {
+    color: #56AED4;
+}
+
+    .cart_item_remove:hover {
+        color: #FF3333;
+    }
+
+.td_total_title, .td_total {
+    text-align: right !important;
+    color: #56AED4;
+    font-size: 15px !important;
+}
+
+.td_total {
+    text-decoration: underline;
+}
+
+.contact_form .contact_txt {
+    display: block;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    background: none;
+    outline: none;
+    height: 24px;
+    width: 100%;
+    padding: 5px 12px;
+}
+
+.contact_form .contact_txta {
+    padding: 5px 12px;
+    border-radius: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    color: #555;
+}
+
+.contact_button_send {
+    border: none;
+    width: 100%;
+    height: 36px;
+    background: #56AED4;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.cart_info, .cart_form {
+    padding-top: 22px;
+    padding-bottom: 48px;
+    line-height: 22px;
+    font: 13px/20px 'Arial';
+}
+
+    .cart_info span {
+        font-size: 14px;
+        color: #56AED4;
+        font-weight: bold;
+    }
+
+.note_bg {
+    width: 100%;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.note {
+    color: #56AED4;
+}

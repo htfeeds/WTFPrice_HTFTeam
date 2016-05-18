@@ -1,0 +1,105 @@
+﻿@using Microsoft.Ajax.Utilities
+@using WTFPrice_HTFTeam.Function
+@using WTFPrice_HTFTeam.ViewModel
+@model IEnumerable<WTFPrice_HTFTeam.ViewModel.ListItemShopped>
+@{
+    var stt = 1;
+    int rowSpan;
+    
+}
+<div class="titleUserProfile">List Shop History</div>
+@if (ViewBag.Count == 0)
+{
+    <div style="text-align: center;font-size: 15px"><i class="fa fa-exclamation-triangle" style="color:orange"></i> Quý khách chưa mua sản phẩm nào.</div>
+}
+else
+{
+    <table class="table table-bordered mytableUserProfile" style="width: 90%">
+        <tr class="trHeader">
+            <th>
+                STT
+            </th>
+            <th>
+                OrderDate
+            </th>
+            <th>
+                Product Name
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Price/Product
+            </th>
+            <th>
+                Total
+            </th>
+            <th><i class="fa fa-truck fa-lg"></i></th>
+        </tr>
+
+
+        @foreach (var item in Model)
+        {
+            {
+                rowSpan = item.ShopHistory.Count;
+            }
+            <tr>
+                <td rowspan="@rowSpan" class="tdSpanJustify">
+                    @(stt++)
+                </td>
+                <td rowspan="@rowSpan" class="tdSpanJustify">
+                    @TimeCondition.TimeString(item.ShopHistory[0].OrderDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ShopHistory[0].Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ShopHistory[0].Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ShopHistory[0].Price)
+                </td>
+                <td rowspan="@rowSpan" class="tdSpanJustify">
+                    @{
+            decimal total = 0;
+            foreach (var itemSum in item.ShopHistory)
+            {
+                total += itemSum.SumPrice;
+            }
+                    }
+                    @total.ToString("c")
+                </td>
+                @if (item.ShopHistory[0].Status)
+                {
+                    <td rowspan="@rowSpan" class="tdSpanJustify"><span class="ok"><i class="fa fa-check-circle fa-lg"></i>Đã giao hàng</span></td>
+                }
+                else
+                {
+                    <td rowspan="@rowSpan" class="tdSpanJustify"><span class="no"><i class="fa fa-times-circle fa-lg"></i>Chưa giao hàng</span></td>
+                }
+            </tr>
+            for (int i = 1; i < rowSpan; i++)
+            {
+
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ShopHistory[i].Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ShopHistory[i].Quantity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ShopHistory[i].Price)
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+    <div style="width: 90%; font-style: italic;text-decoration: underline"><i class="fa fa-exclamation-circle fa-lg" style="color:orange"></i> Lưu ý:</div>
+    <div class="static-information" style="width: 90%; margin-top: 5px; font-size: 13px; font-style: italic">
+        * Thông tin ở đây phù hợp với đơn hàng của quý khách đã mua.<br />
+        * Trường hợp không đúng với hóa đơn, hoặc chưa nhận được hàng như trên xin quý khách liên hệ qua bộ phận kinh doanh của chúng tôi qua <i class="fa fa-phone"></i> : <span style="color: red; font-weight: bold"> : +84 (932) 569 525</span> hoặc <i class="fa fa-envelope-o"></i> : <span style="color: red; font-weight: bold">wtfprice@gmail.com </span> .
+    </div>
+} 
+
+

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ApplicationRole>
+@{
+    ViewBag.Title = "Roles";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var stt = 1;
+}
+
+<h2 style="text-align: center">Roles Management</h2>
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+    <span style=" margin-left: 5px">Có tất cả <span style="color: rgb(51, 122, 183); font-weight: bold; font-size: 16px;">@ViewBag.Count</span> role</span>
+</p>
+<table class="table table-hover">
+    <tr style="background: #f5f5f5">
+        <th>
+            STT
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            Link
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @(stt++)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {id = item.Id}) |
+                @Html.ActionLink("Details", "Details", new {id = item.Id}) |
+                @Html.ActionLink("Delete", "Delete", new {id = item.Id})
+            </td>
+        </tr>
+    }
+</table>

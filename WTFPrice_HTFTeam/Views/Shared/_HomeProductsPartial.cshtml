@@ -1,0 +1,20 @@
+﻿@model List<WTFPrice_HTFTeam.Models.Product>
+@if (Model.Count > 0)
+{
+    <div class="wrapper row3">
+        <main class="container no_padding">
+            <div class="row no_margin">
+                <div class="home_title no_padding col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="new_product_title">Sản phẩm mới</div>
+                    <div class="new_product_title_line"></div>
+                </div>
+            </div>
+            <div class="row home_product_bg no_margin">
+                @foreach (var product in Model)
+                {
+                    @Html.DisplayFor(x => product, "ProductTemplate")
+                }
+            </div>
+        </main>
+    </div>
+}

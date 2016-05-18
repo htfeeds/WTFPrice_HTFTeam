@@ -1,0 +1,19 @@
+﻿@model WTFPrice_HTFTeam.Models.Product
+
+@if (Model.ProductDetails.Count > 0)
+{
+    <div class="product_content_title" style="margin-top:28px;">Thông số kỹ thuật</div>
+    <div class="product_content_bg product_details_info_bg page_details">
+        <table cellpadding="3" class="chitiet">
+            <tbody>
+                @foreach (var item in Model.ProductDetails.OrderBy(x => x.DisplayOrder))
+                {
+                    <tr>
+                        <td>@item.PropertyName</td>
+                        <td>@item.PropertyValue</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

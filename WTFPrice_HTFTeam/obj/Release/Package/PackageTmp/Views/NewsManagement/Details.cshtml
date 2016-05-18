@@ -1,0 +1,95 @@
+﻿@using WTFPrice_HTFTeam.Function
+@model WTFPrice_HTFTeam.Models.News
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 style="text-align: center">Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <p></p>
+        <dt>
+            @Html.DisplayNameFor(model => model.Short)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Short)
+        </dd>
+        <p></p>
+        <dt>
+            @Html.DisplayNameFor(model => model.HomeImageUrl)
+        </dt>
+
+        <dd>
+            @if (string.IsNullOrEmpty(Model.HomeImageUrl) == false)
+            {
+                <img src="@Url.Content(Model.HomeImageUrl)" class="img-thumbnail img-responsive" style="width: 50%" />
+            }
+        </dd>
+        <p></p>
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedOn)
+
+        </dt>
+       
+        <dd>
+            @TimeCondition.TimeString(Model.CreatedOn)
+        </dd>
+        <p></p>
+        <dt>
+            @Html.DisplayNameFor(model => model.Author)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Author)
+        </dd>
+        <p></p>
+        <dt>
+            @Html.DisplayNameFor(model => model.NewsCategory.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NewsCategory.Name)
+        </dd>
+        <p></p>
+        <dt>
+            @Html.DisplayNameFor(model => model.ViewCount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ViewCount)
+        </dd>
+        <p></p>
+        <dt>
+            @Html.DisplayNameFor(model => model.ShowOnHomePage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShowOnHomePage)
+        </dd>
+        <p></p>
+        <dt>
+            @Html.DisplayNameFor(model => model.FullText)
+        </dt>
+
+        <dd>
+            @Html.Partial("PartialNews/_PartialModalPopUp", @Model)
+        </dd>
+    </dl>
+</div>
+<p style="padding-left: 50px; margin-bottom: 70px">
+    @Html.ActionLink(@Server.HtmlDecode("&larr;") + " Back to List", "Index", null, new { @class = "btn btn-default" })
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Delete", "Delete", new { id = Model.Id }, new { @class = "btn btn-primary" })
+</p>

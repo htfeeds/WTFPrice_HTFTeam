@@ -1,0 +1,44 @@
+﻿@using Microsoft.AspNet.Identity
+@using Microsoft.AspNet.Identity.EntityFramework
+@using WTFPrice_HTFTeam.Models
+
+<div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    @Html.ActionLink("WTFPrice Administrator", "Index", "Admin", null, new { @class = "navbar-brand" })
+</div>
+
+<ul class="nav navbar-top-links navbar-right">
+    <li style="cursor: default; padding-right: 8px;">
+        Hello @User.Identity.GetUserName() !
+    </li>
+    @{
+        var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext()));
+        var user = manager.FindById(User.Identity.GetUserId());
+    }
+    <li class="dropdown" style="position: relative; top: 10px; margin-right: 25px;">
+        <span class="dropdown-toggle" data-toggle="dropdown" href="#">
+            @if (string.IsNullOrEmpty(user.Avatar) == false)
+            {
+                <img src="@Url.Content(user.Avatar)" class="img-circle img-responsive" style="width: 30px; height: 30px;" height=30 width=30 />
+            }
+        </span>
+        <ul class="dropdown-menu dropdown-user" style="margin-top: 10px;">
+            @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+            {
+                @Html.AntiForgeryToken()
+                <li>
+                    <a href="@Url.Action("Index", "UserProfile")"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "UserProfile")"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                </li>
+                <li class="divider"></li>
+                <li><a href="javascript:document.getElementById('logoutForm').submit()"><i class="fa fa-sign-out fa-fw"></i>Log off</a></li>}
+        </ul>
+    </li>
+</ul>

@@ -1,0 +1,21 @@
+﻿@using WTFPrice_HTFTeam.Models;
+@model WTFPrice_HTFTeam.Models.OrderDetail
+@{
+    var db = new WTFPriceEntities();
+    var products = db.Products;
+}
+
+<tr id="porder-@Model.Id">
+    <td>
+        @Html.DisplayFor(model => products.FirstOrDefault(x => x.Id == model.ProductId).Name)
+    </td>
+    <td>
+        @Html.DisplayFor(model => model.Quantity)
+    </td>
+    <td>
+        @Html.HtfActionLink("<i class=\"fa fa-pencil\"></i>", "Edit", "OrderDetailManagement", new { id = Model.Id }, null)
+    </td>
+    <td>
+        @Ajax.RawActionLink("<i class=\"fa fa-trash-o\"></i>", "Delete", "OrderDetailManagement", new { id = Model.Id }, new AjaxOptions() { HttpMethod = "POST", OnComplete = "removeRecord" }, new { data = "porder-" + Model.Id })
+    </td>
+</tr>

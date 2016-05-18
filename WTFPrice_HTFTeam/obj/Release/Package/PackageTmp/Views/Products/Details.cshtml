@@ -1,0 +1,60 @@
+﻿@using WTFPrice_HTFTeam.Models
+@model WTFPrice_HTFTeam.Models.Product
+@{
+    ViewBag.Title = Model.Name;
+}
+
+@Html.Partial("_CartModalPartial")
+@Html.Partial("_BreadCrumbDetailsPartial")
+<div class="wrapper row3">
+    <main class="container clear no_padding">
+        @Html.DisplayFor(model => Model, "ProductDetailsTemplate")
+        <div class="page_content row no_margin hidden-xs" id="htf-menufixed">
+            <div class="product_detail_bar">
+                @if (Model.ProductImages.Count > 0)
+                {
+                    <a href="#" class="product_bar_item">Thiết kế của máy</a>
+                }
+                @if (Model.ProductDetails.Count > 0)
+                {
+                    <a href="#" class="product_bar_item">Thông số kỹ thuật</a>
+                }
+                @if (Model.RelatedProducts.Count > 0)
+                {
+                    <a href="#" class="product_bar_item">Sản phẩm tương tự</a>
+                }
+                <a href="#" class="product_bar_item">Bình luận</a>
+            </div>
+        </div>
+        <div class="row no_margin">
+            @Html.Partial("_ProductImagesPartial")
+            @Html.Partial("_ProductDetailsPartial")
+            @Html.Partial("_RelatedProductsPartial")
+            @Html.Partial("_ProductCommentsPartial")
+        </div>
+    </main>
+</div>
+
+@section Scripts {
+    <link href="~/Content/vertical-thumbnail.css" rel="stylesheet" type="text/css" media="all">
+    @Scripts.Render("~/bundles/htfslider")
+    <script>
+        $('#htf-menufixed').addClass('original').clone().insertAfter('#htf-menufixed').addClass('cloned').css('position', 'fixed').css('top', '0').css('margin-top', '0').css('z-index', '500').removeClass('original').hide();
+        scrollIntervalID = setInterval(stickIt, 10);
+        function stickIt() {
+            var orgElementPos = $('.original').offset();
+            orgElementTop = orgElementPos.top;
+            if ($(window).scrollTop() >= (orgElementTop)) {
+                orgElement = $('.original');
+                coordsOrgElement = orgElement.offset();
+                leftOrgElement = coordsOrgElement.left;
+                widthOrgElement = orgElement.css('width');
+                $('.cloned').css('left', leftOrgElement + 'px').css('top', 0).css('width', widthOrgElement).show();
+                $('.original').css('visibility', 'hidden');
+            } else {
+                $('.cloned').hide();
+                $('.original').css('visibility', 'visible');
+            }
+        }
+    </script>
+}

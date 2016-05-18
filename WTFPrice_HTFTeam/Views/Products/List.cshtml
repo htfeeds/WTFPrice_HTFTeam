@@ -1,0 +1,14 @@
+﻿@Html.Partial("_CartModalPartial")
+@Html.Partial("_BreadCrumbListPartial")
+<div class="wrapper row3" style="margin-bottom:38px;">
+    <main class="container no_padding">
+        @*@Html.Partial("_ProductsFilterPartial")*@
+        <div class="row page_product_bg no_margin">
+            @foreach (var product in Model)
+            {
+                @Html.DisplayFor(x => product, "ProductTemplate")
+            }
+        </div>
+        @*@Html.Partial("_ProductsNavigationPartial")*@
+    </main>
+</div>

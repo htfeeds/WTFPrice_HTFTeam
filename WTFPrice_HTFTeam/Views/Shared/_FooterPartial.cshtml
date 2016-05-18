@@ -1,0 +1,76 @@
+﻿@using WTFPrice_HTFTeam.Models
+@{
+    var db = new WTFPriceEntities();
+    var categories = db.Categories.Where(x => x.ParentCategoryId != 0);
+}
+
+<div class="bgded" style="margin-top:20px">
+    <!-- ################################################################################################ -->
+    <div class="wrapper overlay dkgrey">
+        <div id="socialbox" class="clear">
+            <ul class="faico clear">
+                <li><a class="faicon-facebook" href="https://www.facebook.com/htfeeds.vn" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="faicon-twitter" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="faicon-google-plus" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                <li><a class="faicon-linkedin" href="https://www.linkedin.com/nhome/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a class="faicon-youtube" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- ################################################################################################ -->
+    <div class="wrapper overlay white">
+        <footer id="footer" class="clear">
+            <div class="one_quarter first">
+                <h6 class="title">Company Details</h6>
+                <address class="btmspace-15">
+                    Company Name<br>
+                    Street Name &amp; Number<br>
+                    Town<br>
+                    Postcode/Zip
+                </address>
+                <ul class="nospace">
+                    <li class="btmspace-10"><span class="fa fa-phone"></span> +84 (932) 569 525</li>
+                    <li><span class="fa fa-envelope-o"></span> htf52gl@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="one_quarter">
+                <h6 class="title">The team includes</h6>
+                <ul class="nospace linklist">
+                    <li><a href="#">HTFeeds</a></li>
+                    <li><a href="#">Hoàng Trọng Bin</a></li>
+                    <li><a href="#">Trương Thanh Thân</a></li>
+                    <li><a href="#">Nguyễn Văn Ngoan</a></li>
+                </ul>
+            </div>
+
+            <div class="one_quarter">
+                <h6 class="title">Đang kinh doanh</h6>
+                <article>
+                    @foreach (var item in categories)
+                    {
+                        <p class="nospace font-x1">
+                            @Html.ActionLink(item.Name, "List", "Products", new { category = item.Id }, null)
+                        </p>
+                    }
+                </article>
+            </div>
+
+            <div class="one_quarter">
+                <h6 class="title">About us</h6>
+                <p>Get the lowdown on the key pieces of Bootstrap's infrastructure, including our approach to better, faster, stronger web development.</p>
+                <div id="fb-root">Like us on facebook</div>
+                <script>
+                    (function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=854144214648139";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                <div class="fb-like" data-href="https://facebook.com/htfeeds.vn" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+            </div>
+        </footer>
+    </div>
+    <!-- ################################################################################################ -->
+</div>

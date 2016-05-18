@@ -1,0 +1,84 @@
+﻿@using WTFPrice_HTFTeam.Function
+@model IEnumerable<WTFPrice_HTFTeam.Models.ApplicationUser>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var stt = 1;
+}
+
+<h2 style="text-align: center">Users Management</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+    <span style=" margin-left: 5px">Có tất cả <span style="color: rgb(51, 122, 183); font-weight: bold; font-size: 16px;">@ViewBag.Count</span> account</span>
+</p>
+<table class="table table-hover">
+    <tr style="background: #f5f5f5">
+        <th>
+            STT
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Avatar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RegisterDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastVisited)
+        </th>
+        <th>
+            Link
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @(stt++)
+            </td>
+            <td>
+                <a class="btn btn-success mytooltip" style="height: 28px; padding-top: 2px">
+                    Avatar
+                    <span>
+                        <img class="callout" src="~/Content/NewsBin/callout.gif" />
+                        @if (string.IsNullOrEmpty(item.Avatar) == false)
+                        {
+                            <img src="@Url.Content(item.Avatar)" class="img-responsive" style="float: right;" height=140 width=140 />
+                        }
+                        @*<img src="~/htc-desire-820-moi-f-300x200.jpg" style="float: right;" height=140 width=140 />*@</span>
+                </a>
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+                @if (TimeCondition.TimeNew(item.RegisterDate, 2))
+                {
+                    <span style="background: red; padding: 2px; font-size: 11px; border-radius: 4px; color: white">New</span>
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @TimeCondition.TimeString(item.RegisterDate)
+            </td>
+            <td>
+                @TimeCondition.TimeString(item.LastVisited)
+            </td>
+            <td>
+                @*@Html.ActionLink("Edit", "Edit", new { id = item.Id }) |*@
+                @Html.ActionLink("Details", "Details", new {id = item.Id})
+                @*@Html.ActionLink("Delete", "Delete", new { id = item.Id })*@
+            </td>
+        </tr>
+    }
+
+</table>

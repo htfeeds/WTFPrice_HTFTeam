@@ -1,0 +1,212 @@
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\obj\Debug\WTFPrice_HTFTeam.Tests.csprojResolveAssemblyReference.cache
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.Tests.dll.config
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.Tests.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.Tests.pdb
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Helpers.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Mvc.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Razor.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\EntityFramework.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Optimization.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Owin.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.pdb
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Helpers.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Razor.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\EntityFramework.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Optimization.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\obj\Debug\WTFPrice_HTFTeam.Tests.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\obj\Debug\WTFPrice_HTFTeam.Tests.pdb
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Google.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Google.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.Tests.dll.config
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.Tests.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.Tests.pdb
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Helpers.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Mvc.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Razor.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\EntityFramework.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Optimization.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Owin.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Google.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.pdb
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Helpers.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Razor.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\EntityFramework.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Optimization.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Google.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\obj\Debug\WTFPrice_HTFTeam.Tests.csprojResolveAssemblyReference.cache
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\obj\Debug\WTFPrice_HTFTeam.Tests.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\obj\Debug\WTFPrice_HTFTeam.Tests.pdb
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.Tests.dll.config
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.Tests.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.Tests.pdb
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Helpers.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Mvc.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Razor.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Optimization.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Owin.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\EntityFramework.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Google.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.pdb
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Helpers.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Razor.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Optimization.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\EntityFramework.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Google.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\obj\Debug\WTFPrice_HTFTeam.Tests.csprojResolveAssemblyReference.cache
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\obj\Debug\WTFPrice_HTFTeam.Tests.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\obj\Debug\WTFPrice_HTFTeam.Tests.pdb
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.Tests.dll.config
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.Tests.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.Tests.pdb
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Helpers.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Mvc.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Razor.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Optimization.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Owin.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\EntityFramework.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Google.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\WTFPrice_HTFTeam.pdb
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Helpers.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Razor.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Optimization.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\EntityFramework.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\Microsoft.Owin.Security.Google.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\obj\Debug\WTFPrice_HTFTeam.Tests.csprojResolveAssemblyReference.cache
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\obj\Debug\WTFPrice_HTFTeam.Tests.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam.Tests\obj\Debug\WTFPrice_HTFTeam.Tests.pdb

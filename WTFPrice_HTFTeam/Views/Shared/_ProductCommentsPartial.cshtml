@@ -1,0 +1,29 @@
+﻿@model WTFPrice_HTFTeam.Models.Product
+
+<div class="product_content_title" style="margin-top:28px;">Bình luận - Đánh giá</div>
+<div id="comments" style="margin-top:20px">
+    <ul id="comment-container">
+        @foreach (var item in Model.Comments.OrderByDescending(x => x.CreatedOn).ToList())
+        {
+            @Html.DisplayFor(x => item, "CommentTemplate")
+        }
+    </ul>
+    <h2>Write A Comment</h2>
+    @using (Ajax.BeginForm("PostComment", "Comments", new AjaxOptions() { OnComplete = "postCompleted", UpdateTargetId = "comment-container", InsertionMode = InsertionMode.InsertBefore }))
+    {
+        @Html.Hidden("ProductId", Model.Id)
+        <div class="block clear">
+            @Html.TextArea("CommentText", "", 3, 25, new { @id = "comment" })
+        </div>
+        <div>
+            <input name="submit" type="submit" value="Submit">
+            <input name="reset" type="reset" value="Reset">
+        </div>
+    }
+
+    <script>
+        function postCompleted() {
+            $("#comment").val("");
+        }
+    </script>
+</div>

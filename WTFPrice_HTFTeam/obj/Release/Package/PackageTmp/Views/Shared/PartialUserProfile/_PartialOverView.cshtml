@@ -1,0 +1,106 @@
+﻿@model WTFPrice_HTFTeam.Models.ApplicationUser
+@using WTFPrice_HTFTeam.Function
+
+<div class="titleUserProfile">OverView Information</div>
+<div class="row">
+    <div class="col-md-2 col-md-offset-1">
+        @if (string.IsNullOrEmpty(Model.Avatar) == false)
+            {
+            <img src="@Url.Content(Model.Avatar)" class="img-thumbnail img-responsive" style="width: 140px" />
+            }
+    </div>
+    <div class="col-md-2" style="font-size: 22px; color: cadetblue; font-family:Georgia, Times, serif; font-weight: bold; padding-left: 0px; margin-bottom: 2px;"> @Html.DisplayFor(model => model.UserName)</div>
+</div>
+<hr style="background:darkgrey; width: 90%" />
+<div class="col-md-6">
+    <dl class="dl-horizontal dl-userprofile-overview">
+        <div style="height: 10px"></div>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email) :
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <div style="height: 10px"></div>
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber) :
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+        <div style="height: 10px"></div>
+        <dt>
+            @Html.DisplayNameFor(model => model.DOB) :
+        </dt>
+        <dd>
+            @if (Model.DOB.HasValue)
+            {
+                @TimeCondition.ToStringFormat(Model.DOB.Value)
+                ;
+            }
+        </dd>
+
+        <div style="height: 10px"></div>
+        <dt>
+            @Html.DisplayNameFor(model => model.RegisterDate) :
+        </dt>
+        <dd>
+            @TimeCondition.TimeString(Model.RegisterDate)
+        </dd>
+        <div style="height: 10px"></div>
+        <dt>
+            @Html.DisplayNameFor(model => model.LastVisited) :
+        </dt>
+        <dd>
+            @TimeCondition.TimeString(Model.LastVisited)
+        </dd>
+    </dl>
+</div>
+<div class="col-md-6">
+    <div class="static-information">
+        <dl class="dl-horizontal dl-userprofile-overview">
+            <dt>
+                Rate:
+            </dt>
+            <dd>
+                @{
+                    var random = new Random().Next(1, 5);
+                    for (int i = 0; i < random; i++)
+                    {
+                        <i class="fa fa-star fa-lg" style="color: darkorange;"></i>
+                    }
+
+                    for (int y = 0; y < 5 - random; y++)
+                    {
+                        <i class="fa fa-star fa-lg" style="color: darkgrey"></i>
+                    }
+
+                }
+            </dd>
+            <div style="height: 10px"></div>
+            <dt>
+                Tần suất:
+            </dt>
+            <dd style="height: 30px;"> @{ var pro = new Random().Next(30, 100);}
+                <div class="progress" style="height: 70% !important">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="@(pro)"
+                         aria-valuemin="0" aria-valuemax="100" style="width: @(pro)%; font-family: initial;">
+                        @(pro)%
+                    </div>
+                </div>
+            </dd>
+            <dt>
+                Điểm thưởng:
+            </dt>
+            <dd style="font-family: sans-serif">
+                @pro <i class="fa fa-heart" style="color: crimson"></i>
+            </dd>
+            <dt>Loại:</dt>
+            <dd>Khách hàng trung thành</dd>
+        </dl>
+
+    </div>
+</div>
+
+
+

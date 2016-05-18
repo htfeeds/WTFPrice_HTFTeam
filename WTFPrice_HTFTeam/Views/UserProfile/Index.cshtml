@@ -1,0 +1,65 @@
+﻿@using WTFPrice_HTFTeam.Function
+@model WTFPrice_HTFTeam.ViewModel.UserProfileVM
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="container my-container visible-lg">
+    <div class="row mytab">
+        <div class="col-md-12 col-sm-5">
+            <div class="tabs-left">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#a" data-toggle="tab"><span class="glyphicon glyphicon-user"></span><span class="word">Overview</span></a><span class="hidewhite"></span></li>
+                    <li><a href="#b" data-toggle="tab"><span class="glyphicon glyphicon-pencil"></span><span class="word">Edit Profile</span></a><span class="hidewhite"></span></li>
+                    <li><a href="#c" data-toggle="tab"><span class="glyphicon glyphicon-lock"></span><span class="word">Change Password</span></a><span class="hidewhite"></span></li>
+                    <li><a href="#d" data-toggle="tab"><span class="glyphicon glyphicon-shopping-cart"></span><span class="word">Shop History</span></a><span class="hidewhite"></span></li>
+                    <li><a href="#e" data-toggle="tab"><span class="glyphicon glyphicon-list"></span><span class="word">Policy</span></a><span class="hidewhite"></span></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="a">
+                        @Html.Partial("PartialUserProfile/_PartialOverView", Model.UserPro)
+                    </div>
+                    <div class="tab-pane" id="b">
+                        @Html.Partial("PartialUserProfile/_PartialEdit",Model.EditUserPo)
+                    </div>
+                    <div class="tab-pane" id="c">
+                        @Html.Partial("PartialUserProfile/_PartialChangePassword",Model.ChangePasswordPro)
+                    </div>
+                    <div class="tab-pane" id="d">
+                        @Html.Partial("PartialUserProfile/_PartialShopHistory",Model.WrrapperListItemShopped)
+                    </div>
+                    <div class="tab-pane" id="e">
+                        @Html.Partial("PartialUserProfile/_PartialSetting")
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+        var tabsFn = (function () {
+
+            function init() {
+                setHeight();
+            }
+
+            function setHeight() {
+                var $tabPane = $('.tab-pane'),
+                    tabsHeight = $('.nav-tabs').height();
+
+                $tabPane.css({
+                    height: tabsHeight
+                });
+            }
+
+            $(init);
+        })();
+    </script>
+}
+
+

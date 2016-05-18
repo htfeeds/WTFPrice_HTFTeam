@@ -1,0 +1,14 @@
+﻿@model WTFPrice_HTFTeam.Models.Product_Category_Mappings
+@using WTFPrice_HTFTeam.Models;
+@{
+    List<ParentCategory> parent = ViewBag.ParentCategory;
+}
+
+<tr id="mapping-@Model.Id">
+    <td>
+        @Html.DisplayFor(modelItem => parent.FirstOrDefault(x => x.Id == Model.CategoryId).Name)
+    </td>
+    <td>
+        @Ajax.RawActionLink("<i class=\"fa fa-trash-o\"></i>", "Delete", "MappingManagement", new { id = Model.Id }, new AjaxOptions() { HttpMethod = "POST", OnComplete = "removeRecord" }, new { data = "mapping-" + Model.Id })
+    </td>
+</tr>

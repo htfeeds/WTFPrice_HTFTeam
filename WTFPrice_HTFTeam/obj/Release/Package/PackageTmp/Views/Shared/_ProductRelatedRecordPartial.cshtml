@@ -1,0 +1,15 @@
+﻿@model WTFPrice_HTFTeam.Models.RelatedProduct
+@using WTFPrice_HTFTeam.Models
+@{
+    var db = new WTFPriceEntities();
+    var products = db.Products;
+}
+
+<tr id="related-@Model.Id">
+    <td>
+        @Html.DisplayFor(model => products.Find(model.SimilarProductId).Name)
+    </td>
+    <td>
+        @Ajax.RawActionLink("<i class=\"fa fa-trash-o\"></i>", "Delete", "RelatedProductManagement", new { id = Model.Id }, new AjaxOptions() { HttpMethod = "POST", OnComplete = "removeRecord" }, new { data = "related-" + Model.Id })
+    </td>
+</tr>

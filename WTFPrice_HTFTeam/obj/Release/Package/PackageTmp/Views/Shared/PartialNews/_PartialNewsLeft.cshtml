@@ -1,0 +1,69 @@
+﻿@using Microsoft.Ajax.Utilities
+@using WTFPrice_HTFTeam.Function
+@model IEnumerable<WTFPrice_HTFTeam.Models.News>
+@if (ViewBag.Name != null)
+{
+    if (ViewBag.Name.ToString() == "Search")
+    {
+        <div class="SearchMore">Có <span>@ViewBag.CountSearch</span> kết quả được tìm thấy</div>
+    }
+}
+@foreach (var item in Model)
+{
+    <div class="row item">
+        <a href="@Url.Action("Detail", "News", new {id = item.Id})" class="image" style="box-shadow: 3px 3px 3px #666;">
+            @if (string.IsNullOrEmpty(item.HomeImageUrl) == false)
+            {
+                <img src="@Url.Content(item.HomeImageUrl)" class="img-responsive shadow" />
+            }
+            @*<img class="img-responsive" width="450" src="~/Upload/News/gionee-elife-s-5-5-5-600x400.jpg"/>*@
+        </a>
+        <h3>
+            <a href="@Url.Action("Index","News",new{id=@item.CategoryId})">@item.NewsCategory.Name</a>
+        </h3>
+        <div class="short">
+            @*<a href="~/News/Detail">
+                    <div class="title">@item.Title</div>
+                </a>*@
+            @Html.ActionLink(@item.Title, "Detail", "News", new { id = item.Id }, new { @class = "title" })
+            <div class="time">by <span class="sp1">@item.Author</span>
+                at <span class="sp1">@TimeCondition.TimeString(item.CreatedOn)</span>
+                <span class="sp3"><i class="fa fa-eye fa-lg"></i> 
+                <span class="sp4" style="">@item.ViewCount</span>
+                </span>
+            </div>
+            <div class="descript">@item.Short</div>
+            <div class="more">
+                @Html.ActionLink("Xem chi tiết...", "Detail", "News", new { id = item.Id }, new { @class = "more" })
+            </div>
+
+            @*<div class="more">Xem chi tiết...</div>*@
+
+            <div class="iconsocial visible-lg">
+                <div style="float: left; padding-right: 5px;">
+                    <div class="fb-share-button iconFB" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"></div>
+                </div>
+                <a href="https://twitter.com/share" class="twitter-share-button iconSame">Tweet</a>
+                <script>
+                    !function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + '://platform.twitter.com/widgets.js';
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, 'script', 'twitter-wjs');
+                </script>
+                <script src="//platform.linkedin.com/in.js" type="text/javascript" lang="en_us"></script>
+                <script type="IN/Share" data-counter="right">
+                </script>
+            </div>
+        </div>
+
+    </div>
+}
+
+
+
+

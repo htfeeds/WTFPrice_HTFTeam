@@ -1,0 +1,16 @@
+﻿@model WTFPrice_HTFTeam.Models.Comment
+
+<li>
+    <article>
+        <header>
+            <figure class="avatar"><img src="~/Content/images/avatar.png" alt=""></figure>
+            <address>
+                By <a href="">@Model.UserId</a>
+            </address>
+            <time>@Model.CreatedOn.ToString("f", System.Globalization.CultureInfo.CreateSpecificCulture("en-US"))</time>
+        </header>
+        <div class="comcont">
+            <p>@Model.CommentText</p>
+        </div>
+    </article>
+</li>

@@ -1,0 +1,100 @@
+﻿@model IEnumerable<WTFPrice_HTFTeam.Models.ItemCart>
+
+<div class="row no_margin">
+    <table class="yourcart_table">
+        <tbody>
+            <tr class="yourcart_table_header">
+                <th>Hình ảnh</th>
+                <th>Tên sản phẩm</th>
+                <th>Ðơn giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+                <th width="30">Xóa</th>
+            </tr>
+
+            @if (Model != null)
+            {
+                foreach (var item in Model)
+                {
+                    <tr id="@item.ProductId">
+                        <td align="center">
+                            @if (item.ProductImageUrl != null)
+                            {
+                                <a href="@Url.Action("Details", "Products", new { id = item.ProductId })" class="td_product_img"><img src="@Url.Content(item.ProductImageUrl)"></a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Details", "Products", new { id = item.ProductId })" class="td_product_img"><img src="~/Content/images/Products/wtfprice.png"></a>
+                            }
+                        </td>
+                        <td>
+                            @Html.ActionLink(item.ProductName, "Details", "Products", new { id = item.ProductId }, new { @class = "product_name2" })
+                        </td>
+                        <td class="td_price" align="right">
+                            @Html.DisplayFor(model => item.ProductPrice) VNÐ
+                        </td>
+                        <td class="td_num">
+                            @Html.EditorFor(model => item.Quantity, new { htmlAttributes = new { @class = "tx_num", data = item.ProductId } })
+                        </td>
+                        <td class="td_sum" align="right" id="money-@item.ProductId">
+                            @Html.DisplayFor(model => item.Total) VNÐ
+                        </td>
+
+                        <td align="center">
+                            @Ajax.RawActionLink("<span class=\"glyphicon glyphicon-trash\"></span>", "DeleteFromCart", "Order", new { productId = item.ProductId }, new AjaxOptions() { HttpMethod = "GET", InsertionMode = InsertionMode.Replace, UpdateTargetId = "htf-giohang", OnComplete = "updateTable" }, new { @class = "cart_item_remove", data = item.ProductId })
+                        </td>
+                    </tr>
+                }
+                <tr class="yourcart_table_footer">
+                    <td colspan="3" class="td_total_title">Tổng cộng</td>
+                    <td class="td_total" colspan="3">@Model.Sum(x => x.Total).ToString("0,0") VNÐ</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function updateTable() {
+        $("#" + $(this).attr("data")).remove();
+        $.get("/Order/GetTotal", function (data) {
+            $(".td_total").text(data);
+        });
+    }
+
+    $(".tx_num").change(function () {
+        if ($(this).val() > 0 && $(this).val() < 100) {
+            var pid = $(this).attr("data");
+            $.ajax({
+                type: "POST",
+                url: "/Order/QuantityChange",
+                data: { idProduct: $(this).attr("data"), quantity: $(this).val() },
+                dataType: "html",
+                success: function (data) {
+                    if (data != '') {
+                        $("#htf-giohang").html(data);
+                        $.ajax({
+                            type: "GET",
+                            url: "/Order/GetTotal",
+                            dataType: "html",
+                            success: function (data) {
+                                $(".td_total").text(data);
+                            },
+                        });
+                        $.ajax({
+                            type: "GET",
+                            url: "/Order/GetMoney",
+                            data: { idProduct: pid },
+                            dataType: "html",
+                            success: function (data) {
+                                $("#money-" + pid).text(data);
+                            },
+                        });
+                    }
+                },
+            });
+        } else {
+            alert("Số lượng không hợp lệ");
+        };
+    });
+</script>

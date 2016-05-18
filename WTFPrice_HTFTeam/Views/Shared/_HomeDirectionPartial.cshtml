@@ -1,0 +1,28 @@
+﻿@{
+    var db = new WTFPrice_HTFTeam.Models.WTFPriceEntities();
+    int bsId = (db.Categories.FirstOrDefault(x => x.Name.Equals("Basic Phone"))).Id;
+    int smId = (db.Categories.FirstOrDefault(x => x.Name.Equals("Smart Phone"))).Id;
+    int tlId = (db.Categories.FirstOrDefault(x => x.Name.Equals("Tablet"))).Id;
+    int ltId = (db.Categories.FirstOrDefault(x => x.Name.Equals("Laptop"))).Id;
+
+    ViewBag.NoBs = db.Product_Category_Mappings.Where(x => x.CategoryId == bsId).Count();
+    ViewBag.NoSm = db.Product_Category_Mappings.Where(x => x.CategoryId == smId).Count();
+    ViewBag.NoTl = db.Product_Category_Mappings.Where(x => x.CategoryId == tlId).Count();
+    ViewBag.NoLt = db.Product_Category_Mappings.Where(x => x.CategoryId == ltId).Count();
+}
+<div class="wrapper" style="margin:15px 0;">
+    <div class="container no_padding">
+        <a href="@Url.Action("List", "Products", new { category=bsId})" class="footer_top_item no_padding col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <i class="fa fa-mobile"></i> Xem @ViewBag.NoBs Basic Phone
+        </a>
+        <a href="@Url.Action("List", "Products", new { category = smId })" class="footer_top_item no_padding col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <i class="fa fa-mobile"></i> Xem @ViewBag.NoSm Smart Phone
+        </a>
+        <a href="@Url.Action("List", "Products", new { category = tlId })" class="footer_top_item no_padding col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <i class="fa fa-tablet"></i> Xem @ViewBag.NoTl Tablet
+        </a>
+        <a href="@Url.Action("List", "Products", new { category = ltId })" class="footer_top_item no_padding col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <i class="fa fa-laptop"></i> Xem @ViewBag.NoLt Laptop
+        </a>
+    </div>
+</div>

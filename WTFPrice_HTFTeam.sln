@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTFPrice_HTFTeam", "WTFPrice_HTFTeam\WTFPrice_HTFTeam.csproj", "{CCC6576B-4042-40A8-913C-D58B4A554344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTFPrice_HTFTeam.Tests", "WTFPrice_HTFTeam.Tests\WTFPrice_HTFTeam.Tests.csproj", "{76DCBDF6-F7BD-4C98-8172-57EA785A995E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCC6576B-4042-40A8-913C-D58B4A554344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC6576B-4042-40A8-913C-D58B4A554344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC6576B-4042-40A8-913C-D58B4A554344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC6576B-4042-40A8-913C-D58B4A554344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76DCBDF6-F7BD-4C98-8172-57EA785A995E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DCBDF6-F7BD-4C98-8172-57EA785A995E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DCBDF6-F7BD-4C98-8172-57EA785A995E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DCBDF6-F7BD-4C98-8172-57EA785A995E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

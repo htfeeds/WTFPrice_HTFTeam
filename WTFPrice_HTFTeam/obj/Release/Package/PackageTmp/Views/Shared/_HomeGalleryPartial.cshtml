@@ -1,0 +1,21 @@
+﻿@{
+    List<WTFPrice_HTFTeam.Models.Product> products = ViewBag.HomeGallery;
+}
+@if (products.Count > 0)
+{
+    <div class="wrapper">
+        <div class="container no_padding">
+            <div class="flexslider">
+                <ul class="slides">
+                    @foreach (var product in products)
+                    {
+                        if (product.GalleryImageUrl != null)
+                        {
+                            <li><a href="@Url.Action("Details", "Products", new { id=product.Id})"><img src="@Url.Content(product.GalleryImageUrl)" /></a></li>
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+}

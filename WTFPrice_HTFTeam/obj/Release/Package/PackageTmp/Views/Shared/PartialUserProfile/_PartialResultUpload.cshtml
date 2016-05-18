@@ -1,0 +1,9 @@
+﻿@model string
+@if (string.IsNullOrEmpty(Model) == false)
+{
+    <img src="@Url.Content(Model)" class="img-thumbnail img-responsive" style="width: 140px"/>
+}
+else
+{
+    <div style="color:red">Upload Avatar error!</div>
+}

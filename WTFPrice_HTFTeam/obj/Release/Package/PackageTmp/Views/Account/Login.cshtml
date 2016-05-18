@@ -1,0 +1,79 @@
+﻿@using Microsoft.Owin.Security
+@model WTFPrice_HTFTeam.Models.LoginViewModel
+@{
+    ViewBag.Title = "Log in";
+}
+
+@{ var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes(); }
+
+<div class="container" style="border-top: 1px solid #EFEFEF" >
+    <div class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <div class="panel-title">Sign In</div>
+                <div class="ForgotPasss"><a href="@Url.Action("ForgotPassword","Account")">Forgot password?</a></div>
+            </div>
+
+            <div class="panel-body BodyLogin">
+                @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div style="margin-left: 17px; margin-bottom: 5px;">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" }) 
+                    </div>
+                    @Html.ValidationMessageFor(x => x.UserName, "", new { @class = "text-danger " })
+                    <div class="input-group input-type">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user LgIcon"></i></span>
+                        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control", placeholder = "UserName..." })
+                        @*<input type="text" class="form-control" name="username" value="" placeholder="username or email">*@
+                    </div>
+                    @Html.ValidationMessageFor(x => x.Password, "", new { @class = "text-danger" })
+                    <div class="input-group input-type">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock LgIcon"></i></span>
+                        @Html.PasswordFor(x => x.Password, new { @class = "form-control", placeholder = "Password..." })
+                        @*<input type="password" class="form-control" name="password" placeholder="password">*@
+                    </div>
+
+                    <div class="input-group checkbox-remember">
+                        <div class="checkbox">
+                            <label>
+                                @Html.CheckBoxFor(x => x.RememberMe)
+                                @Html.LabelFor(x => x.RememberMe)
+                                @*<input type="checkbox" name="remember" value="1"> Remember me*@
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group button-submit">
+                        <div class="col-sm-12">
+                            @*<a href="#" class="btn btn-success">Login </a>*@
+                            <input type="submit" value="Login" class="btn btn-success" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <div class="singup-at-login">
+                                Don't have an account!
+                                <a href="@Url.Action("Register","Account")">
+                                    Sign Up Here
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+               @using (Html.BeginForm("ExternalLogin", "Account", new { ReturnUrl = ViewBag.ReturnUrl }))
+               {
+                @Html.AntiForgeryToken()
+                <div id="socialLoginList">
+                    <p>
+                        <button type="submit" class="btn btn-primary" id="Facebook" name="provider" value="Facebook">Login with Facebook</button>
+                        <button type="submit" class="btn btn-danger" id="Google" name="provider" value="Google">Login with Google</button>
+                    </p>
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+
+</div>

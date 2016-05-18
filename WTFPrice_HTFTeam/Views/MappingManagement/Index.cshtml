@@ -1,0 +1,47 @@
+﻿@model IEnumerable<WTFPrice_HTFTeam.Models.Product_Category_Mappings>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    List<ParentCategory> parent = ViewBag.ParentCategory;
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Product.Name)
+        </th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => parent.FirstOrDefault(x => x.Id == item.CategoryId).Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Name)
+            </td>
+            <td>
+                @Html.HtfActionLink("<i class=\"fa fa-pencil\"></i>", "Edit", new { id = item.Id })
+            </td>
+            <td>
+                @Html.HtfActionLink("<i class=\"fa fa-info\"></i>", "Details", new { id = item.Id })
+            </td>
+            <td>
+                @Html.HtfActionLink("<i class=\"fa fa-trash-o\"></i>", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>

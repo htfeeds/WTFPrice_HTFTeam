@@ -1,0 +1,55 @@
+﻿@using WTFPrice_HTFTeam.Function
+@using WTFPrice_HTFTeam.Models
+@model News
+<div class="news-detail">
+    <h1 class="title">@Model.Title</h1>
+    @*<p class="time">@Model.CreatedDate</p>*@
+    <p class="time">by <span class="sp1">@Model.Author</span> at
+        <span class="sp1">@TimeCondition.TimeString(Model.CreatedOn)</span>
+        <span class="sp3"><i class="fa fa-eye fa-lg"></i> 
+        <span class="sp4">@(Model.ViewCount - 1)</span>
+        </span>
+    </p>
+    <div style="margin: 0 auto; padding-left: 330px;padding-top: 5px" class="visible-lg">
+        <div style="float: left; padding-right: 14px;">
+            <div class="fb-share-button iconFB" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"></div>
+        </div>
+        <span style="padding-right: 8px;">
+            <a href="https://twitter.com/share" class="twitter-share-button iconSame">Tweet</a>
+            <script>
+                !function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + '://platform.twitter.com/widgets.js';
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, 'script', 'twitter-wjs');
+            </script>
+        </span>
+        <script src="//platform.linkedin.com/in.js" type="text/javascript" lang en_us></script>
+        <script type="IN/Share" data-counter="right">
+        </script>
+    </div>
+    @*<p class="shortdes">Gần đây, Gionee đã không ít lần gây được sự chú ý cho giới công nghệ, chẳng hạn như tung ra smartphone cực mỏng Gionee Elife S5.1 hay sắp tới là thiết bị có camera cực tốt - Gionee Elife E8. Tuy nhiên, không dừng lại ở đó, Gionee còn sắp có thêm M5, một chiếc smartphone pin kép thứ hai trên thế giới.</p>
+    <p class="detail">Gionee M5 được cho là đi kèm với hai pin khác nhau bên trong, cả hai có thể kết hợp để cung cấp lên đến bốn ngày dùng liên tục. Hơn nữa, người dùng thậm chí có thể sử dụng điện thoại với một pin trong khi pin thứ hai thì đem đi sạc.</p>
+    <p>
+        <img class="img-responsive" width="640" height="360" src="~/Upload/News/gionee-elife-s-5-5-5-600x400.jpg"/>
+    </p>
+    <p class="sub">Gionee M5 cũng sẽ có pin kép</p>
+    <p class="detail">Khái niệm này nghe khá giống một chiếc smartphone có pin 6000mAh vừa được bán ra gần đây là Innos D6000. Nó cũng có hai viên pin, một pin gắn liền và một pin có thể tháo rời được, thậm chí người dùng còn có thể tháo viên pin rời ra mà không cần tắt máy.</p>
+    <p>
+        <img class="img-responsive" width="640" height="360" src="~/Upload/News/gionee-elife-s-5-5-5-600x400.jpg" />
+    </p>
+    <p class="sub">Tương tự như Innos D6000</p>
+    <p class="detail">Quay trở lại với Gionee M5, ngoài tính năng hai pin ra, các thông số kỹ thuật của sản phẩm này vẫn còn là ẩn số. Tuy nhiên, nhiều khả năng nó sẽ có thông số ở mức tầm trung nhằm đáp ứng nhu cầu tìm kiếm smartphone giá tốt với pin vượt trội của đại đa số người dùng hiện nay.</p>
+    <p class="author">Theo Batch106+108</p>*@
+    @MvcHtmlString.Create(Server.HtmlDecode(Model.FullText))
+   
+    <p class="visible-lg">
+        <span style="float: right; padding: 5px 0" class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true">
+        </span>
+    </p>
+    
+</div>

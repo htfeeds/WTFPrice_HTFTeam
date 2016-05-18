@@ -1,0 +1,83 @@
+﻿@model WTFPrice_HTFTeam.Models.Feedback
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="~/Content/thanStyle.css" rel="stylesheet" type="text/css" media="all">
+
+<div class="container no_padding">
+    <div class="row no_margin">
+        <div class="page_title no_padding col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class=" A_contact_title ">
+                <div class="B_contact_title">Liên Hệ</div>
+            </div>
+            <div class="new_contact_title_line"></div>
+        </div>
+    </div>
+
+    <div class="row no_margin">
+        <div class="contact_form no_padding col-md-5 col-sm-12 col-xs-12">
+            <div class="content">
+                <div class="contact_title fontcolor">
+                    Cảm ơn quý khách hàng đã quan tâm đến sản phẩm,
+                    dịch vụ của WTF Price.
+                    Quý khách có thể liên hệ trực tiếp với chúng tôi,
+                    hoặc để lại thông tin theo form bên dưới.
+                    Chúng tôi sẽ trả lời email của quý khách trong thời gian sớm nhất.
+                </div>
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    <form method="post" action="">
+                        <div class="form-group">
+                            <div>
+
+                                @Html.EditorFor(model => model.ContactName, new { htmlAttributes = new { @class = "form-control", placeholder = "Họ và tên", required = "" } })
+
+
+                                @*<input  type="text" placeholder="Họ và tên" class="form-control" required>*@
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "Email", required = "" } })
+                            @*<input type="text" class="form-control fontcolor" id="txtemail" placeholder="Email" required />*@
+                        </div>
+                        <div class="form-group">
+                            @Html.EditorFor(model => model.ContactAddress, new { htmlAttributes = new { @class = "form-control", placeholder = "Địa Chỉ", required = "" } })
+                            @*<input type="text" class="form-control fontcolor" id="txtdiachi" placeholder="Địa Chỉ" required />*@
+                        </div>
+                        <div class="form-group">
+                            @Html.EditorFor(model => model.ContactPhone, new { htmlAttributes = new { @class = "form-control", placeholder = "Điện Thoại", required = "" } })
+                            @*<input type="text" class="form-control fontcolor" id="txtdienthoai" placeholder="Điện Thoại" required />*@
+                        </div>
+                        <div class="form-group">
+                            @Html.EditorFor(model => model.FullText, new { htmlAttributes = new { @rows = "5", @class = "form-control", placeholder = "Nội dung", required = "" } })
+                            @*<textarea id="txtnoidung" class="form-control" placeholder="Nội dung" rows="5" required></textarea>*@
+                        </div>
+                        <div class="form-group">
+                            <div>
+                                @*<button name="" value="" type="submit" class="btn btn-success button_gui">Gửi</button>*@
+                                <input class="btn btn-success button_gui" name="Gửi" value="Gửi" type="submit" />
+                            </div>
+                        </div>
+                    </form>
+                }
+            </div>
+        </div>
+        <div class="no_padding col-md-offset-1 col-md-6 col-sm-12 col-xs-12 contact_form" style="border :1px solid #808080;">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.9256680646!2d108.22278850185242!3d16.069346609632603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421833d45a248d%3A0x4a4c90e0f05b25c9!2zMzggWcOqbiBCw6FpLCBI4bqjaSBDaMOidSwgxJDDoCBO4bq1bmcsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1432972665657" width="583" height="456" frameborder="0" style="border:0"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="row no_margin" style="margin-bottom :15px;">
+        <p class="contact_comp_name no_padding">Nhóm 2 Batch 106 +108</p>
+        <br>
+        <strong class="fontcolor">Địa Chỉ:</strong><b class="fontcolor"> 38 Yên Bái, Q.Hải Châu, Đà Nẵng</b>
+        <br>
+        <strong class="fontcolor">Tel:</strong><b class="fontcolor"> (0511) 123456789</b>
+        <br>
+        <strong class="fontcolor">Email:</strong> <b class="fontcolor"> nhom2Bacth106and108@gmail.com</b>
+    </div>
+
+</div>

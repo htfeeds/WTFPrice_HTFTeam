@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="server=localhost\SQLEXPRESS;database=WTFPrice;uid=sa;password=12435" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Documents\\Softech\ Aptech\\Semester\ 3\\Project\\WTFPrice_HTFTeam\\WTFPrice_HTFTeam\\WTFPrice_HTFTeam\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="WTFPriceEntities-Web.config Connection String" description="WTFPriceEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.WTFPriceEntityModel.csdl|res://*/Models.WTFPriceEntityModel.ssdl|res://*/Models.WTFPriceEntityModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=localhost\SQLEXPRESS;initial catalog=WTFPrice;user id=sa;password=12435;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Documents\\Softech\ Aptech\\Semester\ 3\\Project\\WTFPrice_HTFTeam\\WTFPrice_HTFTeam\\WTFPrice_HTFTeam\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WTFPriceEntities']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,197 @@
+﻿.page_title {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+    .page_title .A_contact_title {
+        z-index: 2;
+        position: relative;
+        float: left;
+        font-size: 20px;
+        font-family: 'Myriad Set Pro';
+        color: #333333;
+        text-Shadow: 0 0 1px rgba(88,80,80,0.2);
+        padding-bottom: 5px;
+        border-bottom: 3px solid #B61014;
+        text-transform: uppercase;
+    }
+
+    .page_title .B_contact_title {
+        float: left;
+        text-Shadow: 0 0 1px rgba(88,80,80,0.5);
+    }
+
+    .page_title .new_contact_title_line {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 3px;
+        background: #eee;
+        bottom: 0;
+    }
+
+.contact_form {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    float: left;
+}
+
+    .contact_form .content {
+        height: 100%;
+    }
+
+    .contact_form .contact_title {
+        float: left;
+        width: 100%;
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+
+    .contact_form .contact_txt_bg {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 28px;
+        border: 1px solid #eee;
+        margin: 5px 0 0 0;
+        /* font-family: 'gillsansregular', "Trebuchet MS", "Century Gothic", "Courier New"; */
+        font-size: 13px;
+        font: 13px/20px 'Arial';
+        background: #fff;
+    }
+
+    .contact_form .contact_txt {
+        position: absolute;
+        border: none;
+        background: none;
+        outline: none;
+        width: 100%;
+        height: 24px;
+        padding-top: 3px;
+        margin-left: 6px;
+        z-index: 100;
+        font: 13px/20px 'Arial';
+    }
+
+    .contact_form .contact_txta_bg {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 100px;
+        border: 1px solid #eee;
+        background: #fff;
+        margin: 5px 0 0 0;
+        /* font-family: 'gillsansregular', "Trebuchet MS", "Century Gothic", "Courier New"; */
+        font: 13px/20px 'Arial';
+        color: #999999;
+    }
+
+    .contact_form .contact_txta {
+        position: absolute;
+        border: none;
+        background: none;
+        outline: none;
+        width: 99%;
+        height: 94px;
+        margin-top: 2px;
+        margin-left: 4px;
+        z-index: 0;
+        color: #666;
+        font-weight: normal;
+        /* font-family: 'gillsansregular', "Trebuchet MS", "Century Gothic", "Courier New"; */
+        resize: none;
+        font: 13px/20px 'Arial';
+    }
+
+    .contact_form .invalid_text {
+        position: absolute;
+        right: 22px;
+        top: 21px;
+        font-weight: normal;
+        font-size: 10px !important;
+        /* color: #8C0000; */
+        color: #b61014 !important;
+        width: 100%;
+        text-align: right;
+        z-index: 0;
+    }
+
+
+.contact_button {
+    position: relative;
+    width: 100%;
+    top: 16px;
+    bottom: 28px;
+}
+
+    .contact_button a {
+        float: left;
+        /* width: 95px; */
+        width: 100%;
+        height: 36px;
+        background: #b61014;
+        color: #fff;
+        overflow: hidden;
+        -webkit-transition: all 200ms linear;
+        -moz-transition: all 200ms linear;
+        -o-transition: all 200ms linear;
+        -ms-transition: all 200ms linear;
+        transition: all 200ms linear;
+        cursor: pointer;
+        /* font-family: 'gillsansregular', "Trebuchet MS", "Century Gothic", "Courier New"; */
+    }
+
+        .contact_button a span {
+            float: left;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+            /* text-shadow: 0px 0px 1px #fff; */
+            font-size: 14px;
+            text-transform: uppercase;
+            font-family: "myriad_proregular" !important;
+            cursor: pointer;
+        }
+
+.contact_button_send {
+    margin-left: 0px;
+}
+
+.button_disable {
+    float: left;
+    width: 100%;
+    height: 36px;
+    margin-top: -36px;
+    background: #111;
+    opacity: 0.9;
+    display: none;
+}
+
+.contact_comp_name {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    line-height: 28px;
+    color: #B61014;
+    font-weight: bold;
+}
+
+.fontcolor {
+    color: #413a3a;
+}
+
+.button_gui {
+    width: 100%;
+}
+
+.gannamstyle {
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mau {
+    color: #B61014;
+}

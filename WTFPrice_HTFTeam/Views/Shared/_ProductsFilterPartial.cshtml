@@ -1,0 +1,65 @@
+﻿@model IEnumerable<WTFPrice_HTFTeam.Models.Product>
+@using WTFPrice_HTFTeam
+
+@{
+    var listManu = new List<ManuFilter>();
+
+    var list = Model.Select(x => new ManuFilter { Id = x.ManufacturerId, Name = x.Manufacturer.Name }).Distinct();
+    if (list != null)
+    {
+        foreach (var item in list)
+        {
+            listManu.Add(item);
+        }
+    }
+}
+
+<div id="filter" class="row no_margin">
+    <div class="fl_left">
+        <ul class="nospace inline">
+            <li>Filter:</li>
+            <li>
+                <a href="#">Mức giá <span class="arrdown"></span></a>
+                <ul class="dropfilter">
+                    <li>
+                        <a class="checked" href="javascript:;" title=""><i class="fa fa-check"></i>Tất cả</a>
+                        <a href="#" title="">Dưới 5 triệu</a>
+                        <a href="#" title="">Từ 5tr - 10tr</a>
+                        <a href="#" title="">Từ 10tr - 14tr</a>
+                        <a href="#" title="">Từ 14tr - 18tr</a>
+                        <a href="#" title="">Trên 18 triệu</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Hãng sản xuất<span class="arrdown"></span></a>
+                <ul class="dropfilter">
+                    <li>
+                        @if (listManu.Count > 0)
+                        {
+                            foreach (var item in listManu)
+                            {
+                                <a href="#">@item.Name</a>
+                            }
+                        }
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="fl_right">
+        <ul class="nospace inline">
+            <li>
+                <a href="javascript:;">
+                    <b>Giá thấp đến cao</b><span class="arrdown"></span>
+                </a>
+                <ul class="dropfilter droplast">
+                    <li>
+                        <a class="" href="#">Giá thấp đến cao</a>
+                        <a class="" href="#">Giá cao đến thấp</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+﻿@using WTFPrice_HTFTeam.Models
+@model WTFPrice_HTFTeam.Models.Product
+
+<div class="page_content row no_margin" style="padding-bottom:20px;">
+    <div class="product_gallery_bg col-lg-4 col-md-4 col-sm-5 col-xs-12">
+        <a class="product_detail_img" title="@Model.Name">
+            @if (Model.ImageUrl != null)
+            {
+                <img src="@Url.Content(Model.ImageUrl)">
+            }
+            else
+            {
+                <img src="~/Content/images/Products/wtfprice.png">
+            }
+        </a>
+    </div>
+    <div class="product_detail_info_bg col-lg-8 col-md-8 col-sm-7 col-xs-12">
+        <div id="@Model.Id" class="product_detail_title window_title">@Html.DisplayFor(model => model.Name)</div>
+        <div class="product_detail_ID">@Html.DisplayNameFor(model => model.Id)<span>: @Html.DisplayFor(model => model.Id)</span></div>
+        <div class="product_detail_price">@Html.DisplayNameFor(model => model.Price)<span>: @Html.DisplayFor(model => model.Price) VNĐ</span></div>
+        @Ajax.ActionLink(" ", "AddToCart", "Products", new { productId = Model.Id }, new AjaxOptions() { HttpMethod = "GET", InsertionMode = InsertionMode.Replace, UpdateTargetId = "htf-giohang", OnComplete = "addCompleted" }, new { @class = "product_add_btn product_add_detail_btn", data = Model.Name })
+
+        @if (Model.Info != null)
+        {
+            <div class="product_detail_info_title">@Html.DisplayNameFor(model => model.Info): </div>
+            <div class="product_detail_info">@Html.DisplayFor(model => model.Info)</div>
+        }
+        @if (Model.Warranty != null)
+        {
+            <div class="product_detail_warranty">@Html.DisplayNameFor(model => model.Warranty): @Html.DisplayFor(model => model.Warranty)</div>
+        }
+        @if (Model.Promotion != null)
+        {
+            <div class="promorion_bg">@Html.DisplayNameFor(model => model.Promotion): @Html.DisplayFor(model => model.Promotion)</div>
+        }
+    </div>
+</div>
+
+<script>
+    function addCompleted() {
+        $("#cart-product-name").replaceWith($(this).attr("data"));
+        $('#CartModal').modal('show');
+        setTimeout(function () { $('#CartModal').modal('hide'); }, 2000);
+    }
+</script>

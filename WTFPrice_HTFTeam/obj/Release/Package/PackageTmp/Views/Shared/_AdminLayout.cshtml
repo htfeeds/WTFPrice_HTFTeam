@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title - WTFPrice Administrator</title>
+    @Styles.Render("~/Content/admincss")
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            @Html.Partial("_AdminHeaderPartial")
+            @Html.Partial("_AdminMainMenuPartial")
+        </nav>
+        <!-- RenderBody -->
+        <div id="page-wrapper">
+            <div class="row no_margin">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/adminjs")
+    @Scripts.Render("~/Scripts/jquery.unobtrusive-ajax.min.js")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

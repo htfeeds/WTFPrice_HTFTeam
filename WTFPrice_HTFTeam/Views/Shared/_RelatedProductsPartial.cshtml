@@ -1,0 +1,25 @@
+﻿@model WTFPrice_HTFTeam.Models.Product
+
+@if (Model.RelatedProducts.Count > 0)
+{
+    <div class="product_content_title" style="margin-top:28px;">Sản phẩm tương tự</div>
+    <ul class="product_same_item nospace group capitalise">
+        @foreach (var item in Model.RelatedProducts.OrderByDescending(x => x.Id).Take(3))
+        {
+            <li class="one_quarter product_same_item_bg">
+                @if (item.Product.ImageUrl != null)
+                {
+                    <a href="@Url.Action("Details", "Products", new { id=item.SimilarProductId})" class="product_same_item_img"><img src="@Url.Content(item.Product.ImageUrl)"></a>
+                }
+                <a href="@Url.Action("Details", "Products", new { id=item.SimilarProductId})" class="product_same_item_name" style="height: 36px;">@Html.DisplayFor(x => item.Product.Name)</a>
+                <div class="product_same_price">@Html.DisplayFor(x => item.Product.Price) VNĐ</div>
+                <a href="#" class="product_same_item_compare">So sánh ngay</a>
+            </li>
+        }
+        <li class="one_quarter">
+            <div class="compare_select_form">
+                <input type="text" class="compare_search_tf" placeholder="Nhập tên laptop">
+            </div>
+        </li>
+    </ul>
+}

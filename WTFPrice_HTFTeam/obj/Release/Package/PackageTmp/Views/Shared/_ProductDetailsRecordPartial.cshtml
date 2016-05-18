@@ -1,0 +1,19 @@
+﻿@model IEnumerable<WTFPrice_HTFTeam.Models.ProductDetail>
+
+@foreach (var item in Model)
+{
+    <tr id="detail-@item.Id">
+        <td>
+            @Html.DisplayFor(model => item.PropertyName)
+        </td>
+        <td>
+            @Html.DisplayFor(model => item.PropertyValue)
+        </td>
+        <td>
+            @Html.DisplayFor(model => item.DisplayOrder)
+        </td>
+        <td>
+            @Ajax.RawActionLink("<i class=\"fa fa-trash-o\"></i>", "Delete", "ProductDetailManagement", new { id = item.Id }, new AjaxOptions() { HttpMethod = "POST", OnComplete = "removeRecord" }, new { data = "detail-" + item.Id })
+        </td>
+    </tr>
+}

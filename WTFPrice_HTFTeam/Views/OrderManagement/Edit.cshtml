@@ -1,0 +1,165 @@
+﻿@model WTFPrice_HTFTeam.Models.Order
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Edit</h2>
+@Html.ActionLink("Back to List", "Index")
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Order</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.UserId, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.UserId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ContactName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ContactName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ContactName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ContactAddress, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ContactAddress, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ContactAddress, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ContactPhone, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ContactPhone, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ContactPhone, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.Status)
+                    @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Note, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Note, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Note, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CreatedOn, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CreatedOn, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                @Html.ValidationMessageFor(model => model.CreatedOn, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+
+    </div>
+}
+
+<br />
+@using (Ajax.BeginForm("Create", "OrderDetailManagement", new AjaxOptions() { OnComplete = "addProductCompleted", UpdateTargetId = "order-edit-table", InsertionMode = InsertionMode.InsertAfter }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+
+        <h4>Order Products</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.Hidden("OrderId", Model.Id)
+        @Html.Hidden("update", true)
+
+        <div class="form-group">
+            @Html.Label("Product", new { @class = "control-label col-md-2" })
+            <div class="col-md-7">
+                @Html.DropDownList("ProductId", null, htmlAttributes: new { @class = "form-control", @id = "dropdownid" })
+            </div>
+            <div class="col-md-2">
+                @Html.TextBox("Quantity", "", new { @class = "form-control", @id = "quantity" })
+            </div>
+            <div class="col-md-1">
+                <input type="submit" value="Add" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<br />
+<table class="table">
+    <tbody id="order-edit-table">
+        <tr>
+            <th class="no_border">
+                @Html.Label("Product Name")
+            </th>
+            <th class="no_border">
+                @Html.Label("Quantity")
+            </th>
+            <th class="no_border"></th>
+            <th class="no_border"></th>
+        </tr>
+
+        @foreach (var item in Model.OrderDetails)
+        {
+            <tr id="porder-@item.Id">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.HtfActionLink("<i class=\"fa fa-pencil\"></i>", "Edit", "OrderDetailManagement", new { id = item.Id }, null)
+                </td>
+                <td>
+                    @Ajax.RawActionLink("<i class=\"fa fa-trash-o\"></i>", "Delete", "OrderDetailManagement", new { id = item.Id }, new AjaxOptions() { HttpMethod = "POST", OnComplete = "removeRecord" }, new { data = "porder-" + item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function addProductCompleted() {
+        $("#quantity").val("");
+        $("#dropdownid").val("");
+    }
+    function removeRecord() {
+        $("#" + $(this).attr("data")).remove();
+    }
+</script>

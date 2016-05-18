@@ -1,0 +1,22 @@
+﻿@model WTFPrice_HTFTeam.Models.Product
+
+@if (Model.ProductImages.Count > 0)
+{
+    <div class="product_content_title" style="margin:28px 0;">Thiết kế của máy</div>
+    <div id="slider1_container" style="position:relative;top:0px;left:0px;width:960px;height:480px;background:#191919;overflow:hidden;">
+        <div u="slides" style="position: absolute; left: 240px; top: 0px; width: 720px; height: 480px; overflow: hidden;">
+            @foreach (var item in Model.ProductImages)
+            {
+                <div><img u="image" src="@Url.Content(item.ImageUrl)" /></div>
+            }
+        </div>
+        <div u="thumbnavigator" class="jssort02" style="left: 0px; bottom: 0px;">
+            <div u="slides" style="cursor: default;">
+                <div u="prototype" class="p">
+                    <div class=w><div u="thumbnailtemplate" class="t"></div></div>
+                    <div class=c></div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

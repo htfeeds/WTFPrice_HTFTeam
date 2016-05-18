@@ -1,0 +1,32 @@
+﻿@using WTFPrice_HTFTeam.Models
+@model WTFPrice_HTFTeam.ViewModel.NewsVM
+@{
+    ViewBag.Title = "Detail";
+}
+
+@section Binbundle{
+    <link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/themes/base/all.css" rel="stylesheet" type="text/css" />
+}
+
+<div class="container body-content" style="padding: 10px 0 0 0">
+    @Html.Partial("PartialNews/_PartialNewsTop", @Model.SortByCategory)
+    @Html.Partial("PartialNews/_PartialNewsNavbar")
+    <div class="row news-center">
+        <div class="col-md-9">
+            <div id="SearchResultId">
+                @Html.Partial("PartialNews/_PartialNewsDetail", (News)ViewBag.news)
+                @Html.Partial("PartialNews/_PartialCommentFB")
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            @Html.Partial("PartialNews/_PartialNewsRight", @Model.SortByViews)
+        </div>
+    </div>
+
+</div>
+
+@section Scripts{
+    <script src="~/Scripts/jquery-ui-1.11.4.min.js"></script>
+}

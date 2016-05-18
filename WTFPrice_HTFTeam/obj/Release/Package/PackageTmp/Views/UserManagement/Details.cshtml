@@ -1,0 +1,91 @@
+﻿@using WTFPrice_HTFTeam.Function
+@model WTFPrice_HTFTeam.Models.ApplicationUser
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2 style="text-align: center">Details</h2>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Avatar)
+        </dt>
+        <dd>
+            @if (string.IsNullOrEmpty(Model.Avatar) == false)
+            {
+                <img src="@Url.Content(Model.Avatar)" class="img-thumbnail img-responsive" style="width: 140px"/>
+            }
+        </dd>
+        <p></p>
+        <dt>
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+        <p></p>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <p></p>
+        <dt>
+          
+         @Html.DisplayNameFor(model => model.DOB)
+        </dt>
+        <dd>
+            @if (Model.DOB.HasValue)
+            {
+                @TimeCondition.ToStringFormat(Model.DOB.Value);
+            }
+        </dd>
+        <p></p>
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+        <p></p>
+        <dt>
+            @Html.DisplayNameFor(model => model.RegisterDate)
+        </dt>
+        <dd>
+            @TimeCondition.TimeString(Model.RegisterDate)
+        </dd>
+        <p></p>
+        <dt>
+            @Html.DisplayNameFor(model => model.LastVisited)
+        </dt>
+        <dd>
+            @TimeCondition.TimeString(Model.LastVisited)
+        </dd>
+    </dl>
+</div>
+<h4 style="margin-left: 90px;">List of roles for this user :</h4>
+@if (ViewBag.RoleNames.Count == 0)
+{
+    <hr />
+    <p>No roles found for this user.</p>
+}
+<table class="table" style="padding-left:30px ">
+    @foreach (var item in ViewBag.RoleNames)
+    {
+        <tr>
+            <td style="padding-left:90px ">
+                @item
+            </td>
+        </tr>
+    }
+</table>
+<p style="padding-left: 50px; margin-bottom: 70px">
+    @Html.ActionLink(@Server.HtmlDecode("&larr;") + " Back to List", "Index", null, new { @class = "btn btn-default" })
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Delete", "Delete", new { id = Model.Id }, new { @class = "btn btn-primary" })
+</p>
+
+
+

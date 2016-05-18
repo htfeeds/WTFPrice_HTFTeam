@@ -1,0 +1,23 @@
+﻿@Html.Partial("_CartModalPartial")
+
+<div class="wrapper bgded">
+    <div class="overlay dkgrey">
+        <div id="breadcrumb" class="clear">
+            <ul>
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>Search: "@ViewContext.RouteData.Values["query"]"</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper row3" style="margin:38px 0;">
+    <main class="container no_padding">
+        <div class="row page_product_bg no_margin">
+            @foreach (var product in Model)
+            {
+                @Html.DisplayFor(x => product, "ProductTemplate")
+            }
+        </div>
+    </main>
+</div>

@@ -1,0 +1,244 @@
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WTFPrice_HTFTeam.dll.config
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WTFPrice_HTFTeam.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WTFPrice_HTFTeam.pdb
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Antlr3.Runtime.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.SqlServer.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Google.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Newtonsoft.Json.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Owin.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Net.Http.Formatting.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Helpers.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.WebHost.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Mvc.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Optimization.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Razor.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Razor.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WebGrease.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Helpers.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Mvc.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Optimization.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Razor.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Razor.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Antlr3.Runtime.pdb
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Newtonsoft.Json.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Net.Http.Formatting.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.WebHost.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.SqlServer.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Google.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\obj\Debug\WTFPrice_HTFTeam.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\obj\Debug\WTFPrice_HTFTeam.pdb
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\obj\Debug\WTFPrice_HTFTeam.csprojResolveAssemblyReference.cache
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WTFPrice_HTFTeam.dll.config
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WTFPrice_HTFTeam.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WTFPrice_HTFTeam.pdb
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Antlr3.Runtime.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.SqlServer.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Google.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Newtonsoft.Json.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Owin.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Net.Http.Formatting.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Helpers.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.WebHost.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Mvc.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Optimization.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Razor.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Razor.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WebGrease.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Helpers.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Mvc.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Optimization.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Razor.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Razor.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Antlr3.Runtime.pdb
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Newtonsoft.Json.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Net.Http.Formatting.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.WebHost.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.SqlServer.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Google.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\obj\Debug\WTFPrice_HTFTeam.dll
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\obj\Debug\WTFPrice_HTFTeam.pdb
+D:\Documents\Softech Aptech\Semester 3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\obj\Debug\WTFPrice_HTFTeam.csprojResolveAssemblyReference.cache
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WTFPrice_HTFTeam.dll.config
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WTFPrice_HTFTeam.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WTFPrice_HTFTeam.pdb
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Antlr3.Runtime.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.SqlServer.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Google.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Newtonsoft.Json.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Owin.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Net.Http.Formatting.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Helpers.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.WebHost.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Mvc.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Optimization.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Razor.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Razor.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WebGrease.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Helpers.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Mvc.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Optimization.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Razor.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Razor.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Antlr3.Runtime.pdb
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Newtonsoft.Json.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Net.Http.Formatting.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.WebHost.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.SqlServer.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Google.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\obj\Debug\WTFPrice_HTFTeam.csprojResolveAssemblyReference.cache
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\obj\Debug\WTFPrice_HTFTeam.dll
+D:\Documents\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\obj\Debug\WTFPrice_HTFTeam.pdb
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WTFPrice_HTFTeam.dll.config
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WTFPrice_HTFTeam.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WTFPrice_HTFTeam.pdb
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Antlr3.Runtime.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.SqlServer.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Google.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Newtonsoft.Json.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Owin.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Net.Http.Formatting.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Helpers.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.WebHost.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Mvc.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Optimization.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Razor.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Razor.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\WebGrease.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Helpers.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Mvc.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Optimization.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Razor.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.WebPages.Razor.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Antlr3.Runtime.pdb
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Newtonsoft.Json.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Net.Http.Formatting.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\System.Web.Http.WebHost.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\EntityFramework.SqlServer.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Google.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\obj\Debug\WTFPrice_HTFTeam.csprojResolveAssemblyReference.cache
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\obj\Debug\WTFPrice_HTFTeam.dll
+D:\Documents\SourceCode\SoftechAptech\Semester3\Project\WTFPrice_HTFTeam\WTFPrice_HTFTeam\WTFPrice_HTFTeam\obj\Debug\WTFPrice_HTFTeam.pdb

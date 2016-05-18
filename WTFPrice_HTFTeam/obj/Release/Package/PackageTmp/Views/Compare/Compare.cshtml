@@ -1,0 +1,142 @@
+﻿@using WTFPrice_HTFTeam.Models
+@model WTFPrice_HTFTeam.Models.Product
+
+@{
+    ViewBag.Title = "So sánh";
+    var SProduct = (Product)ViewBag.sProduct;
+}
+
+<link href="~/Content/Compare.css" rel="stylesheet" type="text/css" />
+
+<div class="page_bg">
+    <div class="container">
+        <div class="row">
+            <div class="page_title no_padding col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="new_product_title window_title">
+                    <div class="product_title">So sánh sản phẩm</div>
+                    <div class="product_group_menu no_sub"><a href="#!ProductDetails/SID40765/APPLE-MACBOOK-PRO-RETINA-15-INCH-256G--MJLQ2.mpx">@Model.Name</a></div>
+                </div>
+                <div class="new_product_title_line"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="page_content no_padding col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="compare_bg">
+                    <table class="compare_table" cellpadding="0" cellspacing="0" border="1">
+                        <tbody>
+                            <tr class="compare_img">
+                                <td class="full0">
+                                    <a class="compare_item_img"><img src="@Url.Content(@Model.ImageUrl)"></a>
+                                    <a class="compare_item_name">@Model.Name</a>
+                                    <div class="compare_item_price">@Model.Price<span> VNĐ</span></div>
+                                    <div class="compare_item_id">@Model.Id</div>
+                                </td>
+                                <td class="full0">
+                                    <span class="vs_icon">VS</span>
+                                    @if (SProduct != null)
+                                    {
+                                        <a class="compare_item_img"><img src="@Url.Content(SProduct.ImageUrl)"></a>
+                                    }
+                                    <a class="compare_item_name">@if (SProduct != null) { SProduct.Name.ToString(); }</a>
+                                    <div class="compare_item_price">
+                                        @if (SProduct != null) { SProduct.Price.ToString(); }
+                                        <span> VNĐ</span>
+                                    </div>
+                                    <div class="compare_item_id">
+                                        @if (SProduct != null) { SProduct.Id.ToString(); }
+                                    </div>
+                                </td>
+                                @using (Html.BeginForm("Search", "Compare", FormMethod.Post))
+                                {
+                                    <td>
+                                        <div class="compare_select_form">
+                                            @Html.TextBox("txtSearch", "", htmlAttributes: new { @class = "compare_search_tf ui-autocomplete-input", @placeholder = "Nhập từ khóa để tìm kiếm", @autcomplete = "off" })
+                                        </div>
+                                        <div class="btnsearch">
+                                            <button type="submit" value="Search"><img src="~/Content/images/icon/Search-icon.png" /></button>
+                                        </div>
+                                    </td>
+                                }
+                            </tr>
+                            <tr><td colspan="3" class="compare_title_bg">Thông tin sản phẩm</td></tr>
+                            <tr class="compare_info">
+                                <td>@Model.Info</td>
+                                <td>
+                                    @if (SProduct != null)
+                                    {
+                                        @SProduct.Info
+                                    }
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr class="compare_warranty">
+                                <td><strong>Bảo hành</strong>: @Model.Warranty</td>
+                                <td><strong>Bảo hành</strong>: @if (SProduct != null) { SProduct.Warranty.ToString(); }</td>
+                                <td></td>
+                            </tr>
+                            <tr class="compare_promotion">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr><td colspan="3" class="compare_title_bg">Thông số kỹ thuật</td></tr>
+
+                        </tbody>
+                    </table>
+                    <div class="compare_row_bg">
+                        <div class="compare_item_bg full full50" style="height: 399px;">
+                            <div class="compare_item_details product_details_info_bg">
+                                <table class="bgChiTiet" border="1">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <table border="1" cellpadding="3" class="chitiet">
+                                                    <tbody>
+                                                        @foreach (var item in Model.ProductDetails.OrderBy(x => x.DisplayOrder))
+                                                        {
+                                                            <tr>
+                                                                <td>@item.PropertyName</td>
+                                                                <td>@item.PropertyValue</td>
+                                                            </tr>
+                                                        }
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="compare_item_bg full full50" style="height: 399px;">
+                            <div class="compare_item_details product_details_info_bg">
+                                <table class="bgChiTiet" border="1">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <table border="1" cellpadding="3" class="chitiet">
+                                                    <tbody>
+                                                        @foreach (var item in Model.ProductDetails.OrderBy(x => x.DisplayOrder))
+                                                        {
+                                                            <tr>
+                                                                <td>@item.PropertyName</td>
+                                                                <td>@item.PropertyValue</td>
+                                                            </tr>
+                                                        }
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="compare_item_bg max" style="height: 399px;">
+                            <div class="compare_item_details product_details_info_bg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+﻿@{
+    int no = 0;
+    if (Request.Cookies["ShoppingCart"] != null)
+    {
+        string s = Request.Cookies["ShoppingCart"].Value;
+        string[] products = s.Split(' ');
+        no = products.Length;
+    }
+}
+
+<div class="wrapper row0">
+    <div id="topbar" class="clear">
+        <div class="fl_left">
+            <ul class="nospace inline">
+                <li><i class="fa fa-phone"></i> +84 (932) 569 525</li>
+                <li><i class="fa fa-envelope-o"></i> htf52gl@gmail.com</li>
+            </ul>
+        </div>
+        <div class="fl_right">
+            <ul class="nospace inline">
+                @Html.Partial("_HTFLoginPartial")
+                <li><a href="@Url.Action("CheckOut","Order")" id="htf-giohang"><i class="fa fa-shopping-cart"></i> Giỏ hàng (@no)</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

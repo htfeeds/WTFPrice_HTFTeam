@@ -1,0 +1,35 @@
+﻿@using WTFPrice_HTFTeam.Models
+@{
+    var db = new WTFPriceEntities();
+
+    int id = int.Parse(ViewContext.RouteData.Values["category"].ToString());
+    var cate = db.Categories.FirstOrDefault(x => x.Id == id);
+
+    int supId = cate.ParentCategoryId;
+    var supCate = db.Categories.FirstOrDefault(x => x.Id == supId);
+
+    int sup2 = 0;
+    if (supId != 0)
+    {
+        sup2 = supCate.ParentCategoryId;
+    }
+    var supCate2 = db.Categories.FirstOrDefault(x => x.Id == sup2);
+}
+<div class="wrapper bgded">
+    <div class="overlay dkgrey">
+        <div id="breadcrumb" class="clear">
+            <ul>
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                @if (supCate2 != null)
+                {
+                    <li>@Html.ActionLink(supCate2.Name, "List", "Products", new { category = supCate2.Id }, null)</li>
+                }
+                @if (supCate != null)
+                {
+                    <li>@Html.ActionLink(supCate.Name, "List", "Products", new { category = supCate.Id }, null)</li>
+                }
+                <li>@Html.ActionLink(cate.Name, "List", "Products", new { category = cate.Id }, null)</li>
+            </ul>
+        </div>
+    </div>
+</div>

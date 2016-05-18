@@ -1,0 +1,28 @@
+﻿@model IEnumerable<WTFPrice_HTFTeam.Models.News>
+<div class="row news-right" style="margin: 0px;">
+    <p>Tin hót trong tuần</p>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>
+                @*<a href="~/News/Detail">
+                        <img class="img-responsive" width="85" src="~/Upload/3053975_DSC_1540.jpg" />
+                    </a>*@
+                <a href="@Url.Action("Detail","News",new{id=item.Id})" class="image" >
+                    @if (string.IsNullOrEmpty(item.HomeImageUrl) == false)
+                    {
+                        <img src="@Url.Content(item.HomeImageUrl)" class="img-responsive" />
+                    }
+                    @*<img class="img-responsive" width="450" src="~/Upload/News/gionee-elife-s-5-5-5-600x400.jpg"/>*@
+                </a>
+                <div class="shortD">
+                    <a class="title" href="@Url.Action("Detail","News",new{id=item.Id})">
+                        @item.Title
+                    </a>
+                    <span>@item.CreatedOn.ToShortDateString()</span>
+                    <span class="shortD-span"><i class="fa fa-eye"></i>@item.ViewCount</span>
+                </div>
+            </li>
+        }
+    </ul>
+</div>

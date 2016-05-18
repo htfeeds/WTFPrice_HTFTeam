@@ -1,0 +1,33 @@
+﻿@using WTFPrice_HTFTeam.Models
+
+@{
+    ViewBag.Title = "CheckOut";
+    var ShoppingCart = (List<ItemCart>)ViewBag.ShoppingCart;
+}
+
+<div class="wrapper row3">
+    <main class="container clear no_padding">
+
+        <div class="row no_margin">
+            <div class="page_title no_padding col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="new_product_title">
+                    <div class="product_title">Giỏ hàng - Ðặt hàng trực tuyến</div>
+                </div>
+                <div class="new_product_title_line"></div>
+            </div>
+        </div>
+
+        @Html.DisplayFor(model => ShoppingCart, "CartTableTemplate")
+
+        <div class="row no_margin">
+            <div class="page_title no_padding col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="new_product_title">
+                    <div class="product_title">Thông tin đặt hàng</div>
+                </div>
+                <div class="new_product_title_line"></div>
+            </div>
+        </div>
+
+        @Html.Partial("_CartFormPartial")
+    </main>
+</div>

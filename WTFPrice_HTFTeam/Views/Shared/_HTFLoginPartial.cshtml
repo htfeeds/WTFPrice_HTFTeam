@@ -1,0 +1,56 @@
+﻿@using Microsoft.AspNet.Identity
+@using Microsoft.AspNet.Identity.EntityFramework
+@using WTFPrice_HTFTeam.Function
+@using WTFPrice_HTFTeam.Models
+
+@*@if (Request.IsAuthenticated)
+    {
+        using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+        {
+            @Html.AntiForgeryToken()
+            <li>
+                @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+        }
+    }
+    else
+    {
+        <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    }*@
+
+
+@if (Request.IsAuthenticated)
+{
+    Users users = new Users();
+    var user = users.GetUser(User.Identity.GetUserId());
+    user.LastVisited = DateTime.Now;
+    users.GetUserManager().Update(user);
+    <li style="cursor:default">
+        Hello @User.Identity.GetUserName() !
+    </li>
+    <li style="padding: 0px; padding-right: 5px;">
+        @if (string.IsNullOrEmpty(user.Avatar) == false)
+        {
+            <img src="@Url.Content(user.Avatar)" class="img-circle img-responsive" style="width: 30px; height: 30px;margin-top: -2px" height=30 width=30 />
+        }
+        <ul>
+            @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+            {
+                @Html.AntiForgeryToken()
+                <li>
+                    <a href="@Url.Action("Index","UserProfile")"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index","UserProfile")"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                </li>
+                <li><a href="javascript:document.getElementById('logoutForm').submit()"><i class="fa fa-sign-out fa-fw"></i>Log off</a></li>}
+        </ul>
+    </li>
+}
+else
+{
+    <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+    <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+}

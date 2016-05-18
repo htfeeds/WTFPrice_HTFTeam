@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7628b483ecf24f5b822341db1276f570" Name="Diagram1">
+        <EntityTypeShape EntityType="WTFPriceModel.Category" Width="1.5" PointX="6" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="WTFPriceModel.Comment" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WTFPriceModel.Feedback" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WTFPriceModel.Manufacturer" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WTFPriceModel.News" Width="1.5" PointX="10" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WTFPriceModel.NewsCategory" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WTFPriceModel.OrderDetail" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="WTFPriceModel.Order" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WTFPriceModel.Product_Category_Mappings" Width="1.5" PointX="8.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="WTFPriceModel.ProductDetail" Width="1.5" PointX="5.25" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WTFPriceModel.ProductImage" Width="1.5" PointX="5.25" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WTFPriceModel.ProductReview" Width="1.5" PointX="5.25" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WTFPriceModel.Product" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WTFPriceModel.RelatedProduct" Width="1.5" PointX="5.25" PointY="21.375" IsExpanded="true" />
+        <AssociationConnector Association="WTFPriceModel.FK_Product_Category_Mappings_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="WTFPriceModel.FK_Comment_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="WTFPriceModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="WTFPriceModel.FK_News_TypeOfNews" ManuallyRouted="false" />
+        <AssociationConnector Association="WTFPriceModel.FK_OrderDetail_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="WTFPriceModel.FK_OrderDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="WTFPriceModel.FK_Product_Category_Mappings_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="WTFPriceModel.FK_ProductDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="WTFPriceModel.FK_ProductImage_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="WTFPriceModel.FK_ProductReview_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="WTFPriceModel.FK_RelatedProducts_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

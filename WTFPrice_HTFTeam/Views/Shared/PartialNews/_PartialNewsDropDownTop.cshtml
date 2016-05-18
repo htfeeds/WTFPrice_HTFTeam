@@ -1,0 +1,21 @@
+﻿@model IEnumerable<WTFPrice_HTFTeam.Models.News>
+<div id="news-dropdown-top">
+    @foreach (var item in Model)
+    {
+    <div class="thumb-item">
+        <a href="@Url.Action("Detail", "News", new {id = item.Id})">
+            @if (string.IsNullOrEmpty(item.HomeImageUrl) == false)
+            {
+                <img src="@Url.Content(item.HomeImageUrl)" class="img-responsive" width="227" height="130" />
+            }
+            <div class="content-sub">
+                <span class="content_sub_title">@item.Title</span>
+                <span class="content-sub-view"><i class="fa fa-eye"></i>@item.ViewCount</span>
+            </div>
+        </a>
+
+    </div>
+    }
+ 
+</div>
+

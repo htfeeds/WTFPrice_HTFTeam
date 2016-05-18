@@ -1,0 +1,36 @@
+﻿@{
+    List<WTFPrice_HTFTeam.Models.News> news = ViewBag.HomeNews;
+}
+@if (news.Count > 0)
+{
+    <div class="wrapper row3">
+        <div class="container clear no_padding">
+            <div class="row no_margin">
+                <div class="home_title no_padding col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="new_product_title">Tin Công Nghệ</div>
+                    <div class="new_product_title_line"></div>
+                </div>
+            </div>
+            <div class="flexslider basicslider" style="margin-top:26px;">
+                <ul class="slides">
+                    @foreach (var item in news)
+                    {
+                        <li>
+                            <article class="clear">
+                                <div class="one_half first">
+                                    <h2 class="heading">@Html.ActionLink(item.Title, "Details", "News", new { id = item.Id })</h2>
+                                    <p>@item.Short</p>
+                                    @Html.ActionLink(@Server.HtmlDecode("Read More &raquo;"), "Details", "News", new { id = item.Id })
+                                </div>
+                                @if (item.HomeImageUrl != null)
+                                {
+                                    <div class="one_half"><a href="@Url.Action("Details", "News", new { id = item.Id })"><img src="@Url.Content(item.HomeImageUrl)" /></a></div>
+                                }
+                            </article>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+}

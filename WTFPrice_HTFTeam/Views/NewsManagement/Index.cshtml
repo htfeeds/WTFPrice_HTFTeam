@@ -1,0 +1,78 @@
+﻿@using WTFPrice_HTFTeam.Function
+@model IEnumerable<WTFPrice_HTFTeam.Models.News>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var stt = 1;
+}
+
+<h2 style="text-align: center">News</h2>
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+    <span style=" margin-left: 5px">Có tất cả <span style="color: rgb(51, 122, 183); font-weight: bold; font-size: 16px;">@ViewBag.Count</span> mục</span>
+</p>
+<table class=" table-hover table">
+    <tr style="background: #f5f5f5">
+        <th>
+            STT
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedOn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NewsCategory.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ViewCount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShowOnHomePage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FullText)
+        </th>
+        <th>Link</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @(stt++)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+                @if (TimeCondition.TimeNew(item.CreatedOn, 2))
+                {
+                    <span style="background: red; padding: 2px; font-size: 11px; border-radius: 4px; color: white">New</span>
+                }
+            </td>
+            <td>
+                @TimeCondition.TimeString(item.CreatedOn)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.NewsCategory.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ViewCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShowOnHomePage)
+            </td>
+            <td>
+                @Html.Partial("PartialNews/_PartialModalPopUp", @item)
+            </td>
+
+            <td>
+                @Html.ActionLink("Details", "Details", new {id = item.Id})
+                @Html.ActionLink("Upload", "Upload", "Upload", new {id = item.Id}, null)
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,10 @@
+﻿@model WTFPrice_HTFTeam.Models.ProductImage
+
+<tr id="image-@Model.Id">
+    <td>
+        @Html.DisplayFor(model => model.ImageUrl)
+    </td>
+    <td>
+        @Ajax.RawActionLink("<i class=\"fa fa-trash-o\"></i>", "Delete", "ProductImageManagement", new { id = Model.Id }, new AjaxOptions() { HttpMethod = "POST", OnComplete = "removeRecord" }, new { data = "image-" + Model.Id })
+    </td>
+</tr>

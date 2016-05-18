@@ -1,0 +1,413 @@
+﻿@model WTFPrice_HTFTeam.Models.Product
+@using WTFPrice_HTFTeam.Models;
+@{
+    var db = new WTFPriceEntities();
+    var products = db.Products;
+    List<ParentCategory> parent = ViewBag.ParentCategory;
+}
+
+
+
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Edit</h2>
+@Html.ActionLink("Back to List", "Index")
+
+@using (Html.BeginForm("Edit", "ProductManagement", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Product</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Stock, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Stock, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Stock, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Info, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Info, new { htmlAttributes = new { @class = "form-control", rows = "3" } })
+                @Html.ValidationMessageFor(model => model.Info, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Warranty, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Warranty, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Warranty, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Promotion, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Promotion, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Promotion, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ImageUrl, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ImageUrl, new { htmlAttributes = new { @class = "form-control", @type = "file" } })
+                @Html.ValidationMessageFor(model => model.ImageUrl, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ManufacturerId, "ManufacturerId", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("ManufacturerId", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ManufacturerId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ShowOnHomePage, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.ShowOnHomePage)
+                    @Html.ValidationMessageFor(model => model.ShowOnHomePage, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.GalleryImageUrl, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GalleryImageUrl, new { htmlAttributes = new { @class = "form-control", @type = "file" } })
+                @Html.ValidationMessageFor(model => model.GalleryImageUrl, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.GalleryActived, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.GalleryActived)
+                    @Html.ValidationMessageFor(model => model.GalleryActived, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CreatedOn, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CreatedOn, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                @Html.ValidationMessageFor(model => model.CreatedOn, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<br />
+@using (Ajax.BeginForm("Create", "ProductImageManagement", null, new AjaxOptions() { OnComplete = "addImageCompleted", UpdateTargetId = "image-edit-table", InsertionMode = InsertionMode.InsertAfter }, new { enctype = "multipart/form-data", @id = "form0" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+
+        <h4>Product Images</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.Hidden("ProductId", Model.Id)
+        @Html.Hidden("update", true)
+
+        <div class="form-group">
+            @Html.Label("ImageUrl", new { @class = "control-label col-md-2" })
+            <div class="col-md-9">
+                @Html.TextBox("ImageUrl", "", new { @id = "chooser", @class = "form-control", @type = "file" })
+            </div>
+            <div class="col-md-1">
+                <input id="uploadImage" type="button" value="Add" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+
+<table class="table">
+    <tbody id="image-edit-table">
+        <tr>
+            <th class="no_border"></th>
+            <th class="no_border"></th>
+        </tr>
+
+        @foreach (var item in Model.ProductImages)
+        {
+            <tr id="image-@item.Id">
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImageUrl)
+                </td>
+                <td>
+                    @Ajax.RawActionLink("<i class=\"fa fa-trash-o\"></i>", "Delete", "ProductImageManagement", new { id = item.Id }, new AjaxOptions() { HttpMethod = "POST", OnComplete = "removeRecord" }, new { data = "image-" + item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+@using (Ajax.BeginForm("Create", "ProductDetailManagement", new AjaxOptions() { OnComplete = "addDetailCompleted", UpdateTargetId = "detail-edit-table", InsertionMode = InsertionMode.InsertAfter }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+
+        <h4>Product Details</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.Hidden("ProductId", Model.Id)
+        @Html.Hidden("update", true)
+
+        <div class="form-group">
+            @Html.Label("Thêm Thông số", new { @class = "control-label col-md-2" })
+            <div class="col-md-2">
+                @Html.TextBox("PropertyName", "", new { @id = "pname", @class = "form-control", @placeholder = "property" })
+            </div>
+            <div class="col-md-6">
+                @Html.TextBox("PropertyValue", "", new { @id = "pvalue", @class = "form-control", @placeholder = "value" })
+            </div>
+            <div class="col-md-1">
+                @Html.TextBox("DisplayOrder", "", new { @id = "display", @class = "form-control", @placeholder = "stt" })
+            </div>
+            <div class="col-md-1">
+                <input type="submit" value="Add" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+@using (Ajax.BeginForm("Create", "ProductDetailManagement", new AjaxOptions() { OnComplete = "addDetailsCompleted", UpdateTargetId = "detail-edit-table", InsertionMode = InsertionMode.InsertAfter }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.Hidden("ProductId", Model.Id)
+        @Html.Hidden("update", true)
+
+        <div class="form-group">
+            @Html.Label("Thêm Hàng Loạt", new { @class = "control-label col-md-2" })
+            <div class="col-md-9">
+                @Html.TextArea("details", "", new { @id = "psname", @class = "form-control", @placeholder = "property",@rows=5 })
+            </div>
+            <div class="col-md-1">
+                <input type="submit" value="Add" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<table class="table">
+    <tbody id="detail-edit-table">
+        <tr>
+            <th class="no_border">@Html.Label("Property")</th>
+            <th class="no_border">@Html.Label("Value")</th>
+            <th class="no_border">@Html.Label("Index")</th>
+            <th class="no_border"></th>
+        </tr>
+
+        @foreach (var item in Model.ProductDetails)
+        {
+            <tr id="detail-@item.Id">
+                <td>
+                    @Html.DisplayFor(modelItem => item.PropertyName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PropertyValue)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DisplayOrder)
+                </td>
+                <td>
+                    @Ajax.RawActionLink("<i class=\"fa fa-trash-o\"></i>", "Delete", "ProductDetailManagement", new { id = item.Id }, new AjaxOptions() { HttpMethod = "POST", OnComplete = "removeRecord" }, new { data = "detail-" + item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+@using (Ajax.BeginForm("Create", "RelatedProductManagement", new AjaxOptions() { OnComplete = "addRelatedCompleted", UpdateTargetId = "related-edit-table", InsertionMode = InsertionMode.InsertAfter }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+
+        <h4>Related Products</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.Hidden("ProductId", Model.Id)
+        @Html.Hidden("update", true)
+
+        <div class="form-group">
+            @Html.Label("Sản phẩm tương tự", new { @class = "control-label col-md-2" })
+            <div class="col-md-9">
+                @Html.DropDownList("SimilarProductId", null, htmlAttributes: new { @class = "form-control", @id = "relateddrop" })
+            </div>
+            <div class="col-md-1">
+                <input type="submit" value="Add" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+
+<table class="table">
+    <tbody id="related-edit-table">
+        <tr>
+            <th class="no_border">@Html.Label("Similar Product")</th>
+            <th class="no_border"></th>
+        </tr>
+
+        @foreach (var item in Model.RelatedProducts)
+        {
+            <tr id="related-@item.Id">
+                <td>
+                    @Html.DisplayFor(modelItem => products.Find(item.SimilarProductId).Name)
+                </td>
+                <td>
+                    @Ajax.RawActionLink("<i class=\"fa fa-trash-o\"></i>", "Delete", "RelatedProductManagement", new { id = item.Id }, new AjaxOptions() { HttpMethod = "POST", OnComplete = "removeRecord" }, new { data = "related-" + item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+@using (Ajax.BeginForm("Create", "MappingManagement", new AjaxOptions() { OnComplete = "addMappingCompleted", UpdateTargetId = "mapping-edit-table", InsertionMode = InsertionMode.InsertAfter }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+
+        <h4>Product Details</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.Hidden("ProductId", Model.Id)
+        @Html.Hidden("update", true)
+
+        <div class="form-group">
+            @Html.Label("Mapping Category", new { @class = "control-label col-md-2" })
+            <div class="col-md-9">
+                @Html.DropDownList("CategoryId", null, htmlAttributes: new { @class = "form-control", @id = "mappingdrop" })
+            </div>
+            <div class="col-md-1">
+                <input type="submit" value="Add" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+
+<table class="table">
+    <tbody id="mapping-edit-table">
+        <tr>
+            <th class="no_border">@Html.Label("Mapping Category")</th>
+            <th class="no_border"></th>
+        </tr>
+
+        @foreach (var item in Model.Product_Category_Mappings)
+        {
+            <tr id="mapping-@item.Id">
+                <td>
+                    @Html.DisplayFor(modelItem => parent.FirstOrDefault(x => x.Id == item.CategoryId).Name)
+                </td>
+                <td>
+                    @Ajax.RawActionLink("<i class=\"fa fa-trash-o\"></i>", "Delete", "MappingManagement", new { id = item.Id }, new AjaxOptions() { HttpMethod = "POST", OnComplete = "removeRecord" }, new { data = "mapping-" + item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts {
+    <script type="text/javascript">
+        $("#uploadImage").click(function () {
+            var dataString;
+            var action = $("#form0").attr("action");
+            if ($("#form0").attr("enctype") == "multipart/form-data") {
+                //this only works in some browsers.
+                //purpose? to submit files over ajax. because screw iframes.
+                //also, we need to call .get(0) on the jQuery element to turn it into a regular DOM element so that FormData can use it.
+                dataString = new FormData($("#form0").get(0));
+                contentType = false;
+                processData = false;
+            } else {
+                // regular form, do your own thing if you need it
+            }
+            $.ajax({
+                type: "POST",
+                url: action,
+                data: dataString,
+                dataType: "html", //change to your own, else read my note above on enabling the JsonValueProviderFactory in MVC
+                contentType: contentType,
+                processData: processData,
+                success: function (data) {
+                    //BTW, data is one of the worst names you can make for a variable
+                    addImageCompleted();
+                    uploadTable(data);
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    //do your own thing
+                    alert("upload fail");
+                }
+            });
+        });
+        function addImageCompleted() {
+            $("#chooser").val("");
+        }
+        function addDetailCompleted() {
+            $("#pname").val("");
+            $("#pvalue").val("");
+            $("#display").val("");
+        }
+        function addRelatedCompleted() {
+            $("#relateddrop").val("");
+        }
+        function addDetailsCompleted() {
+            $("#psname").val("");
+        }
+        function addMappingCompleted() {
+            $("#mappingdrop").val("");
+        }
+        function uploadTable(data) {
+            $("#image-edit-table").append(data);
+        }
+        function removeRecord() {
+            $("#" + $(this).attr("data")).remove();
+        }
+    </script>
+}

@@ -1,0 +1,16 @@
+﻿@model WTFPrice_HTFTeam.Models.ProductDetail
+
+<tr id="detail-@Model.Id">
+    <td>
+        @Html.DisplayFor(model => model.PropertyName)
+    </td>
+    <td>
+        @Html.DisplayFor(model => model.PropertyValue)
+    </td>
+    <td>
+        @Html.DisplayFor(model => model.DisplayOrder)
+    </td>
+    <td>
+        @Ajax.RawActionLink("<i class=\"fa fa-trash-o\"></i>", "Delete", "ProductDetailManagement", new { id = Model.Id }, new AjaxOptions() { HttpMethod = "POST", OnComplete = "removeRecord" }, new { data = "detail-" + Model.Id })
+    </td>
+</tr>
